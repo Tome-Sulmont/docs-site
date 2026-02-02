@@ -21,4 +21,4 @@ After taking measurements, I found that the URSA removable mount has a flange of
 In the final design, I barely have to adjust the back focus on the lens, which suggests that this value is a good approximation.
 
 ---
-Here is the `.SVG` (Inkscape) file.
+Here is the [.SVG](/B4-Adapter-Project/download/Flange_distance.svg) (Inkscape) file.
