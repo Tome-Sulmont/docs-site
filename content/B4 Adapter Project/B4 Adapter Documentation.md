@@ -53,7 +53,7 @@ I designed the part around this value and the different components listed in the
 
 ### 3D Print the Part
 
-Download the `.STL ↓` , the `.STEP ↓` or directly the `.3MF ↓` file.
+Download the `.STL ↓` , the [.STEP](./B4-Adapter-Project/download/3d-printed-part.STEP) ↓ or directly the `.3MF ↓` file.
 
 I printed the part in ASA on a Bambu Lab P1S printer.
 Why ASA? Mainly for its UV and heat resistance, as well as its adequate mechanical properties.
