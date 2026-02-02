@@ -8,8 +8,10 @@ export const sharedPageComponents: SharedLayout = {
   afterBody: [],
   footer: Component.Footer({
     links: {
-      GitHub: "https://github.com/jackyzha0/quartz",
-      "Discord Community": "https://discord.gg/cRFFHYye7t",
+      "Instagram": "https://www.instagram.com/tomesulmont",
+      "Reddit": "https://www.reddit.com/user/tomesulmont",
+      "tome.sulmont@gmail.com": "mailto:tome.sulmont@gmail.com",
+      
     },
   }),
 }
@@ -35,13 +37,13 @@ export const defaultContentPageLayout: PageLayout = {
           grow: true,
         },
         { Component: Component.Darkmode() },
-        { Component: Component.ReaderMode() },
+        //{ Component: Component.ReaderMode() },
       ],
     }),
     Component.Explorer(),
   ],
   right: [
-    Component.Graph(),
+    //Component.Graph(),
     Component.DesktopOnly(Component.TableOfContents()),
     Component.Backlinks(),
   ],
@@ -66,3 +68,4 @@ export const defaultListPageLayout: PageLayout = {
   ],
   right: [],
 }
+

@@ -8,7 +8,7 @@ import * as Plugin from "./quartz/plugins"
  */
 const config: QuartzConfig = {
   configuration: {
-    pageTitle: "Quartz 4",
+    pageTitle: "Tomé Docs",
     pageTitleSuffix: "",
     enableSPA: true,
     enablePopovers: true,
@@ -29,26 +29,26 @@ const config: QuartzConfig = {
       },
       colors: {
         lightMode: {
-          light: "#faf8f8",
+          light: "#ffffff",
           lightgray: "#e5e5e5",
-          gray: "#b8b8b8",
-          darkgray: "#4e4e4e",
-          dark: "#2b2b2b",
-          secondary: "#284b63",
-          tertiary: "#84a59d",
-          highlight: "rgba(143, 159, 169, 0.15)",
+          gray: "#b7b5ac",
+          darkgray: "#575653",
+          dark: "#272625",
+          secondary: "#3171b2",
+          tertiary: "#66a0c8",
+          highlight: "rgba(159, 157, 150, 0.08)",
           textHighlight: "#fff23688",
         },
         darkMode: {
-          light: "#161618",
+          light: "rgb(28, 27, 26)",
           lightgray: "#393639",
-          gray: "#646464",
+          gray: "#575653",
           darkgray: "#d4d4d4",
           dark: "#ebebec",
-          secondary: "#7b97aa",
-          tertiary: "#84a59d",
-          highlight: "rgba(143, 159, 169, 0.15)",
-          textHighlight: "#b3aa0288",
+          secondary: "rgb(67, 133, 190)",
+          tertiary: "#92bfdb",
+          highlight: "#9f9d9626",
+          textHighlight: "#fff23688",
         },
       },
     },
@@ -72,6 +72,7 @@ const config: QuartzConfig = {
       Plugin.CrawlLinks({ markdownLinkResolution: "shortest" }),
       Plugin.Description(),
       Plugin.Latex({ renderEngine: "katex" }),
+      Plugin.HardLineBreaks()
     ],
     filters: [Plugin.RemoveDrafts()],
     emitters: [

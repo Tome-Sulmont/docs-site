@@ -14,8 +14,8 @@ export default ((opts?: Options) => {
     return (
       <footer class={`${displayClass ?? ""}`}>
         <p>
-          {i18n(cfg.locale).components.footer.createdWith}{" "}
-          <a href="https://quartz.jzhao.xyz/">Quartz v{version}</a> © {year}
+          Tomé Sulmont - {year}
+          
         </p>
         <ul>
           {Object.entries(links).map(([text, link]) => (
@@ -31,3 +31,7 @@ export default ((opts?: Options) => {
   Footer.css = style
   return Footer
 }) satisfies QuartzComponentConstructor
+
+
+//{i18n(cfg.locale).components.footer.createdWith}{" "}
+//<a href="https://quartz.jzhao.xyz/">Quartz v{version}</a> © {year}
