@@ -16,7 +16,8 @@ Jokes aside, for the past year and a half, I've spend way too much time designin
 The key idea is using the **URSA Mini B4 mount from Blackmagic** (which already contains the optical element) and adapting it mechanically to mirrorless mounts via a custom 3D-printed part and a metal mount.
 
 I documented the entire process — optical considerations, flange distance measurements, 3D-printing, assembly, and more — here:
-→ [B4 Adapter Documentation]()
+
+→ [B4 Adapter Documentation](https://docs.tomesulmont.com/B4-Adapter-Documentation)
 
 I'd be more than happy to answer questions and hear your feedback :)
 
@@ -33,6 +34,7 @@ To Do :
 - [ ] Ironing (degrease tol ??)
 - [x] Why adapting B4 broadcast glass in the first place ?
 - [ ] Practical result
+- [ ] personal setups ??
 - [ ] r/Filmmakers, r/videography, r/DIY
 
 ---

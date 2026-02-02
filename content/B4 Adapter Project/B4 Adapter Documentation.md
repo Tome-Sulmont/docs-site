@@ -59,7 +59,7 @@ Download the [.STL ↓](./B4-Adapter-Project/download/3d-printed-part.STL) , the
 I printed the part in ASA on a Bambu Lab P1S printer.
 Why ASA? Mainly for its UV and heat resistance, as well as its adequate mechanical properties.
 
-Find my [[Adapter Print Recommendations]] here.
+Find all my [[Adapter Print Recommendations]] here.
 
 ### Bill of Materials
 
