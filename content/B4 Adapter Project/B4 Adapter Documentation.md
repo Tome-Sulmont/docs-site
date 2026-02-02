@@ -43,7 +43,7 @@ See [[Additional Information]] for more details.
 
 ➀ : URSA Mini B4 Mount [.STEP ↓](./B4-Adapter-Project/download/URSA-Mini-B4-Mount.STEP)
 ➁ : 3D-printed part [.STEP ↓](./B4-Adapter-Project/download/3d-printed-part.STEP)
-③ : Aluminium lens mount [.STEP ↓](./B4-Adapter-Project/download/LeicaM-FX-Adapter.STEP)
+③ : Aluminium lens mount [.STEP ↓](./B4-Adapter-Project/download/LeicaM-FX-adapter.STEP)
 
 The [[Flange Distance]] of the URSA removable mount is 32.3mm. If you are interested, here is how I determined the [[URSA Removable Mount Flange Distance]].
 I designed the part around this value and the different components listed in the BOM below.
