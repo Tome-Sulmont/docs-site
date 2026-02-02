@@ -1,5 +1,6 @@
 ---
 draft: false
+alias: B4-Adapter-Documentation
 description: Comprehensive guide on how to adapt 2/3" B4 broadcast lenses to any mirrorless camera using corrective optics.
 ---
 Here is a comprehensive guide on how to adapt 2/3" B4 broadcast lenses to any mirrorless camera using corrective optics. 
