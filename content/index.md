@@ -3,7 +3,7 @@ title: Welcome
 draft: false
 ---
 
-On this website, I will share the various projects I am working on.
+On this website, I share the various projects I am working on.
 
 
 ## Projects
