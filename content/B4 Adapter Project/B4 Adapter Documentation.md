@@ -68,7 +68,7 @@ Find my [[Adapter Print Recommendations]] here.
 |                      | Leica M to **Sony E**   | LM-SE                  | PHOLSY     | 1   | [Link](https://www.amazon.fr/-/en/PHOLSY-Adapter-Leica-Zeiss-Camera/dp/B0BWY55G17)                  |
 |                      | Leica M to **L mount**  | LM-L                   | PHOLSY     | 1   | [Link](https://www.amazon.fr/-/en/PHOLSY-Adapter-Leica-Voigtlander-Compatible/dp/B0C9J2FF3T)        |
 |                      | Leica M to **Nikon Z**  | LM-N/Z                 | PHOLSY     | 1   | [Link](https://www.amazon.fr/-/en/PHOLSY-Adapter-Compatible-Voigtlander-Cameras/dp/B0C16Y1WQF?th=1) |
-|                      | Leica M to **M4/3**     | LM-M4/3                | PHOLSY     | 1   | [Link](https://www.amazon.fr/-/en/Adapter-Leica-Cameras-Compatible-Panasonic/dp/B0C9HM25KZ)         |
+|                      | Leica M to **MFT**      | LM-MFT                 | PHOLSY     | 1   | [Link](https://www.amazon.fr/-/en/Adapter-Leica-Cameras-Compatible-Panasonic/dp/B0C9HM25KZ)         |
 |                      | Leica M to **EOS-M**    | LM-EOS-M               | PHOLSY     | 1   | [Link](https://www.amazon.fr/-/en/Leica-Adapter-Compatible-Voigtlander-VM-Mount/dp/B0CJLNGM32)      |
 |                      | Leica M to **Canon RF** | LM-RF                  | PHOLSY     | 1   | [Link](https://www.amazon.fr/-/en/PHOLSY-Adapter-Compatible-Leica-Voigtlander/dp/B0C16YNX2Z)        |
 |                      |                         |                        |            |     |                                                                                                     |
