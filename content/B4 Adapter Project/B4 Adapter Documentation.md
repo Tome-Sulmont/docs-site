@@ -41,9 +41,9 @@ See [[Additional Information]] for more details.
 | :-------------------------------------: | :-------------------------------------: |
 |            *Isometric view*             |           *Side section view*           |
 
-➀ : URSA Mini B4 Mount `.STEP ↓`
-➁ : 3D-printed part `.STEP ↓`
-③ : Aluminium lens mount `.STEP ↓`
+➀ : URSA Mini B4 Mount [.STEP ↓](./B4-Adapter-Project/download/URSA-Mini-B4-Mount.STEP)
+➁ : 3D-printed part [.STEP ↓](./B4-Adapter-Project/download/3d-printed-part.STEP)
+③ : Aluminium lens mount [.STEP ↓](./B4-Adapter-Project/download/LeicaM-FX-Adapter.STEP)
 
 The [[Flange Distance]] of the URSA removable mount is 32.3mm. If you are interested, here is how I determined the [[URSA Removable Mount Flange Distance]].
 I designed the part around this value and the different components listed in the BOM below.
@@ -53,7 +53,7 @@ I designed the part around this value and the different components listed in the
 
 ### 3D Print the Part
 
-Download the `.STL ↓` , the [.STEP](./B4-Adapter-Project/download/3d-printed-part.STEP) ↓ or directly the `.3MF ↓` file.
+Download the [.STL ↓](./B4-Adapter-Project/download/3d-printed-part.STL) , the [.STEP ↓](./B4-Adapter-Project/download/3d-printed-part.STEP) or directly the [.3MF ↓](./B4-Adapter-Project/download/3d-printed-part.3mf) file.
 
 I printed the part in ASA on a Bambu Lab P1S printer.
 Why ASA? Mainly for its UV and heat resistance, as well as its adequate mechanical properties.
