@@ -136,7 +136,7 @@ If you are using a mirrorless, the mount is strong enough to hang the camera fro
 
 2. **Solid connection**
 Create a solid connection between the adapter and the camera body.
-You can attach an Arca Swiss plate under the custom adapter. By using another Arca plate, 2 clamps and a 3D-printed shim, you can securely connect the lens to the camera body.
+You can attach an Arca Swiss plate under the custom adapter. By using another Arca plate, 2 clamps and a 3D-printed riser, you can securely connect the lens to the camera body.
 
 3. **Lens support**
 I've seen people online using lens supports and rods, this is another option.
@@ -144,6 +144,10 @@ Note that there is no need for an additional "lens support" as long as the adapt
 
 I use both Option 1 & 2 depending on the shoot. 
 My current personal setup looks something like this :
+
+| ![[personal_setup_solid_connection.jpg\|378]] | ![[solid_connection_only2.jpg\|294]] |
+| :-------------------------------------------: | :----------------------------------: |
+|         *Option 2: solid connection*          |   *Plate, clamp and riser systeme*   |
 
 ## Powering the rocker
 
