@@ -48,8 +48,11 @@ I found mind on the second hand market; you can also search it by its reference 
 This isn’t meant to replace commercial solutions, but it can makes working with B4 glass on mirrorless bodies far more accessible.
 
 
+
+![[personal_setup_solid_connection.jpg|500]]
+
 ![[Final_adapter_front.jpg|300]]
-![[Adapter_on_B4_lens.jpg|300]]
+
 ![[Adapter_on_B4_lens_zoom.jpg|300]]
 ![[CAD_Assembly_with_balloon.png|300]]
 ![[CAD_Assembly_section_view.png|300]]

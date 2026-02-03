@@ -145,9 +145,9 @@ Note that there is no need for an additional "lens support" as long as the adapt
 I use both Option 1 & 2 depending on the shoot. 
 My current personal setup looks something like this :
 
-| ![[personal_setup_solid_connection.jpg\|378]] | ![[solid_connection_only2.jpg\|294]] |
-| :-------------------------------------------: | :----------------------------------: |
-|         *Option 2: solid connection*          |   *Plate, clamp and riser systeme*   |
+| ![[personal_setup_solid_connection.jpg\|378]] | ![[solid_connection_only.jpg\|294]] |
+| :-------------------------------------------: | :---------------------------------: |
+|         *Option 2: solid connection*          |  *Plate, clamp and riser systeme*   |
 
 ## Powering the rocker
 
