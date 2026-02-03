@@ -3,7 +3,7 @@ draft: false
 ---
 
 ## Advantages
-- True parfocal design (parfocal definition)
+- True parfocal design
 - Massive zoom ranges
 - From pretty wide to very tight focal length
 - Relatively fast apertures
