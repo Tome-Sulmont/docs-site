@@ -180,4 +180,3 @@ This can result in the lens not zooming perfectly to the centre of the frame. In
 Thanks for reading this article, I hope you found some useful information.
 
 I would love to discuss the topic and see if you're building one yourself.
-Feel free to contact me :)
