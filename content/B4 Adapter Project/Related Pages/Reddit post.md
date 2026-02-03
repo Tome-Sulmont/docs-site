@@ -1,7 +1,8 @@
 ---
 draft: true
 ---
-# B4 lens adapter for mirrorless cameras (with corrective optics)
+
+# Custom B4 lens adapter for mirrorless cameras (with corrective optics)
 
 Have you ever wondered how to adapt 2/3" B4 broadcast lenses to mirrorless camera?
 
@@ -25,6 +26,9 @@ I'd be more than happy to answer questions and hear your feedback :)
 --- 
 
 r/Filmmakers (more serious than r/videography)
+r/VintageLenses
+r/cinematography
+r/VIDEOENGINEERING
 
 To Do :
 - [x] Photo of the real adapter
