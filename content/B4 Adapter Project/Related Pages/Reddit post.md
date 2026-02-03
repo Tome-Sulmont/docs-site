@@ -36,6 +36,8 @@ To Do :
 - [ ] Practical result
 - [ ] personal setups ??
 - [ ] r/Filmmakers, r/videography, r/DIY
+- [ ] SD / HD lenses topic
+- [ ] Google indexation CEO
 
 ---
 
