@@ -19,4 +19,4 @@ draft: false
 | Glue                         | Liquid or 3DLAC           |                                   |
 | Filament material            | ASA (Flashforge or Bambu) |                                   |
 
-Open the .3MF file to see all the settings.
+Open the [.3MF ↓](./B4-Adapter-Project/download/3d-printed-part.3mf) file to see all the settings.
