@@ -12,7 +12,7 @@ Right now, you basically have two options:
 
 But what if I told you there was a third option…
 
-Jokes aside, for the past year and a half, I've spend way too much time designing a DIY adapter that works with any mirrorless mount currently available on the market (Sony, Nikon, Canon, Fujifilm & Lumix) — and, more importantly, includes the proper corrective optical element. 
+Jokes aside, for the past year and a half, I've spent way too much time designing a DIY adapter that works with any mirrorless mount currently available on the market (Sony, Nikon, Canon, Fujifilm & Lumix) — and, more importantly, includes the proper corrective optical element. 
 
 The key idea is using the **URSA Mini B4 mount from Blackmagic** (which already contains the optical element) and adapting it mechanically to mirrorless mounts via a custom 3D-printed part and a metal mount.
 
@@ -24,6 +24,24 @@ I'd be more than happy to answer questions and hear your feedback :)
 
 
 --- 
+
+# Custom B4 lens adapter (with proper corrective optics)
+
+Ever wondered how to properly adapt 2/3" B4 broadcast lenses to mirrorless cameras?
+
+Your options today are either absurdly expensive corrected adapters, or a cheap pass-through adapter that forces you to stop down hard to avoid aberrations.
+
+For the past year and a half, I've spent way too much time designing a third option: a DIY B4 adapter compatible with basically any mirrorless mount (Sony, Nikon, Canon, Fujifilm & Lumix).
+
+The key idea is using the **URSA Mini B4 mount from Blackmagic** (which already contains the optical element) and adapting it mechanically to mirrorless mounts via a custom 3D-printed part and a metal mount.
+
+I wrote a full guide covering the optics, measurements, 3D printing, and assembly. It might be useful if you’re into broadcast/ENG glass or love to adapt unique lenses.
+
+→ [B4 Adapter Documentation](https://docs.tomesulmont.com/B4-Adapter-Documentation)
+
+I will be more than happy to answer questions and hear your feedback :)
+
+---
 
 r/Filmmakers (more serious than r/videography)
 r/VintageLenses
@@ -42,6 +60,8 @@ To Do :
 - [ ] r/Filmmakers, r/videography, r/DIY
 - [ ] SD / HD lenses topic
 - [ ] Google indexation CEO
+- [ ] ENG keyword
+- [ ] Fuji HAF’s b4 cine lenses
 
 ---
 
