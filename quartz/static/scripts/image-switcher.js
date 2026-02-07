@@ -131,6 +131,7 @@ function drag(e) {
   // Get image dimensions (with fallback if not loaded yet)
   let imgWidth = img.naturalWidth;
   let imgHeight = img.naturalHeight;
+  
 
   if (imgWidth > 0 && imgHeight > 0) {
     // Image is loaded, calculate proper constraints
@@ -139,8 +140,8 @@ function drag(e) {
     const visualHeight = imgHeight * ZOOM_FACTOR;
 
     // How much the scaled image extends beyond the container (in screen pixels)
-    const overflowX = Math.max(0, visualWidth - containerRect.width);
-    const overflowY = Math.max(0, visualHeight - containerRect.height);
+    const overflowX = container.clientWidth*2 
+    const overflowY = container.clientHeight*2 
 
     // Convert screen overflow to image-coordinate translations
     // The translation happens in image space, so we divide by ZOOM_FACTOR
