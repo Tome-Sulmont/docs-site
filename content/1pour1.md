@@ -1,10 +1,14 @@
-// ===============================================
-// IMAGE SWITCHER + CLICK ZOOM + DRAG PAN
-// Supports multiple independent image blocks
-// ===============================================
+---
+draft: true
+---
+
+```
+// ======================================================
+// IMAGE SWITCHER + CLICK ZOOM + DRAG PAN + PIXEL-ZOOM
+// Fully commented and aspect-ratio safe
+// ======================================================
 
 // ----- 1. IMAGE SWITCHING -----
-// Make the function global so inline onclick in HTML can call it
 window.changeImage = function (src, button) {
   // Find the parent image-switcher block
   const container = button.closest(".image-switcher");
@@ -17,13 +21,12 @@ window.changeImage = function (src, button) {
   // Update the image source
   image.src = src;
 
-  // Update button states
+  // Update buttons selection
   const buttons = container.querySelectorAll("button");
   buttons.forEach(b => {
     b.classList.remove("selected");
     b.disabled = false;
   });
-
   button.classList.add("selected");
   button.disabled = true;
 };
@@ -37,51 +40,66 @@ document.addEventListener("DOMContentLoaded", () => {
 });
 
 // ----- 2. ZOOM + PAN VARIABLES -----
-let isDragging = false;   // Is the user currently dragging
-let startX = 0;           // Start X position of drag
-let startY = 0;           // Start Y position of drag
-let currentX = 0;         // Current translate X
-let currentY = 0;         // Current translate Y
-let zoomTarget = null;    // The <img> being zoomed
-let dragThreshold = 3;    // Minimal movement to consider a drag
-let dragDetected = false; // Flag to prevent click from toggling zoom after drag
-const ZOOM_FACTOR = 2.5;    // Scale factor when zoomed
+let isDragging = false;      // Whether we are currently dragging
+let startX = 0;              // Drag start X
+let startY = 0;              // Drag start Y
+let currentX = 0;            // Current translation X
+let currentY = 0;            // Current translation Y
+let zoomTarget = null;       // The <img> being zoomed
+let dragThreshold = 3;       // Minimal movement to detect drag
+let dragDetected = false;    // Flag to prevent click after drag
+
+// Default scale factor for zoom
+const DEFAULT_ZOOM = 2;
 
 // ----- 3. CLICK TO ZOOM -----
-// Toggle zoom on image when clicked (but ignore if just dragged)
 document.addEventListener("click", (e) => {
   const img = e.target.closest(".zoomable");
   if (!img) return;
 
-  // Ignore click if drag just happened
+  // Ignore click immediately after a drag
   if (dragDetected) {
     dragDetected = false;
     return;
   }
 
-  img.classList.toggle("zoomed");
+  const container = img.parentElement;
 
-  if (img.classList.contains("zoomed")) {
-    // Zoom in: reset pan to center
+  if (!img.classList.contains("zoomed")) {
+    img.classList.add("zoomed");
     currentX = 0;
     currentY = 0;
-    img.style.transform = `scale(${ZOOM_FACTOR}) translate(0px, 0px)`;
+
+    // ----- Pixel-perfect zoom -----
+    if (img.dataset.pixelZoom === "true") {
+      // Calculate scale factor to display 1 image pixel per screen pixel
+      const rect = img.getBoundingClientRect();
+      const scaleX = img.naturalWidth / rect.width;
+      const scaleY = img.naturalHeight / rect.height;
+      const pixelScale = Math.min(scaleX, scaleY);
+
+      // Apply scale transform without changing width/height
+      img.style.transform = `scale(${pixelScale}) translate(0px,0px)`;
+    } else {
+      // Normal zoom using DEFAULT_ZOOM factor
+      img.style.transform = `scale(${DEFAULT_ZOOM}) translate(0px,0px)`;
+    }
   } else {
-    // Zoom out: reset transform
+    // Zoom out
+    img.classList.remove("zoomed");
+    img.style.transform = "";
     currentX = 0;
     currentY = 0;
-    img.style.transform = "";
   }
 });
 
 // ----- 4. DRAG START -----
-// Initialize dragging when user presses mouse or touches the image
 document.addEventListener("mousedown", startDrag);
 document.addEventListener("touchstart", startDrag, { passive: false });
 
 function startDrag(e) {
   const img = e.target.closest(".zoomable.zoomed");
-  if (!img) return; // Only allow drag if image is zoomed
+  if (!img) return; // Only zoomed images can be dragged
 
   e.preventDefault();
 
@@ -92,11 +110,12 @@ function startDrag(e) {
   startX = point.clientX - currentX;
   startY = point.clientY - currentY;
 
+  // Disable transition while dragging
+  img.style.transition = "none";
   dragDetected = false;
 }
 
 // ----- 5. DRAG MOVE -----
-// Update image position while dragging
 document.addEventListener("mousemove", drag);
 document.addEventListener("touchmove", drag, { passive: false });
 
@@ -104,12 +123,11 @@ function drag(e) {
   if (!isDragging) return;
 
   e.preventDefault();
-
   const point = e.touches ? e.touches[0] : e;
   let dx = point.clientX - startX;
   let dy = point.clientY - startY;
 
-  // Detect if drag exceeds threshold
+  // Detect drag
   if (!dragDetected && (Math.abs(dx - currentX) > dragThreshold || Math.abs(dy - currentY) > dragThreshold)) {
     dragDetected = true;
   }
@@ -117,28 +135,39 @@ function drag(e) {
   currentX = dx;
   currentY = dy;
 
-  // ----- 5a. CONSTRAIN PAN TO CONTAINER -----
-  const container = isDragging.parentElement; // zoom container div
+  // ----- Apply boundaries so the image stays inside container -----
+  const container = isDragging.parentElement;
   const imgRect = isDragging.getBoundingClientRect();
   const containerRect = container.getBoundingClientRect();
 
   const maxX = (imgRect.width - containerRect.width) / 2;
   const maxY = (imgRect.height - containerRect.height) / 2;
 
-  // Limit translate values so image does not move outside container
   currentX = Math.min(maxX, Math.max(-maxX, currentX));
   currentY = Math.min(maxY, Math.max(-maxY, currentY));
 
-  // Apply transform: scale + translate
-  isDragging.style.transform = `scale(${ZOOM_FACTOR}) translate(${currentX}px, ${currentY}px)`;
+  isDragging.style.transform = `scale(${getCurrentScale(isDragging)}) translate(${currentX}px, ${currentY}px)`;
 }
 
 // ----- 6. DRAG END -----
-// Reset dragging state
 document.addEventListener("mouseup", endDrag);
 document.addEventListener("touchend", endDrag);
 
 function endDrag() {
+  if (zoomTarget) {
+    // Restore smooth transition for next zoom toggle
+    zoomTarget.style.transition = "transform 0.25s ease";
+  }
   isDragging = false;
   zoomTarget = null;
 }
+
+// ----- 7. Helper: Get current scale of an image -----
+function getCurrentScale(img) {
+  const transform = img.style.transform;
+  if (!transform) return 1;
+  const match = transform.match(/scale\(([\d.]+)\)/);
+  return match ? parseFloat(match[1]) : 1;
+}
+
+```
