@@ -38,10 +38,10 @@ document.addEventListener("DOMContentLoaded", () => {
 
 // ----- 2. ZOOM + PAN VARIABLES -----
 let isDragging = false;   // Is the user currently dragging
-let startX = 0;           // Start X position of drag
-let startY = 0;           // Start Y position of drag
-let currentX = 0;         // Current translate X
-let currentY = 0;         // Current translate Y
+let grabX = 0;            // X position where user grabbed the image
+let grabY = 0;            // Y position where user grabbed the image
+let currentX = 0;         // Current translate X (in original image coordinates)
+let currentY = 0;         // Current translate Y (in original image coordinates)
 let zoomTarget = null;    // The <img> being zoomed
 let dragThreshold = 3;    // Minimal movement to consider a drag
 let dragDetected = false; // Flag to prevent click from toggling zoom after drag
@@ -89,8 +89,9 @@ function startDrag(e) {
   isDragging = img;
 
   const point = e.touches ? e.touches[0] : e;
-  startX = point.clientX - currentX;
-  startY = point.clientY - currentY;
+  // Store the grab position in viewport coordinates
+  grabX = point.clientX;
+  grabY = point.clientY;
 
   dragDetected = false;
 }
@@ -106,28 +107,54 @@ function drag(e) {
   e.preventDefault();
 
   const point = e.touches ? e.touches[0] : e;
-  let dx = point.clientX - startX;
-  let dy = point.clientY - startY;
+  const deltaX = point.clientX - grabX;
+  const deltaY = point.clientY - grabY;
 
   // Detect if drag exceeds threshold
-  if (!dragDetected && (Math.abs(dx - currentX) > dragThreshold || Math.abs(dy - currentY) > dragThreshold)) {
+  if (!dragDetected && (Math.abs(deltaX) > dragThreshold || Math.abs(deltaY) > dragThreshold)) {
     dragDetected = true;
   }
 
-  currentX = dx;
-  currentY = dy;
+  // Accumulate translation directly in image pixels
+  currentX += deltaX / ZOOM_FACTOR;
+  currentY += deltaY / ZOOM_FACTOR;
+
+  // Update grab position for next frame
+  grabX = point.clientX;
+  grabY = point.clientY;
 
   // ----- 5a. CONSTRAIN PAN TO CONTAINER -----
-  const container = isDragging.parentElement; // zoom container div
-  const imgRect = isDragging.getBoundingClientRect();
+  const img = isDragging;
+  const container = img.parentElement;
   const containerRect = container.getBoundingClientRect();
 
-  const maxX = (imgRect.width - containerRect.width) / 2;
-  const maxY = (imgRect.height - containerRect.height) / 2;
+  // Get image dimensions (with fallback if not loaded yet)
+  let imgWidth = img.naturalWidth;
+  let imgHeight = img.naturalHeight;
 
-  // Limit translate values so image does not move outside container
-  currentX = Math.min(maxX, Math.max(-maxX, currentX));
-  currentY = Math.min(maxY, Math.max(-maxY, currentY));
+  if (imgWidth > 0 && imgHeight > 0) {
+    // Image is loaded, calculate proper constraints
+    // Visual size after zoom
+    const visualWidth = imgWidth * ZOOM_FACTOR;
+    const visualHeight = imgHeight * ZOOM_FACTOR;
+
+    // How much the scaled image extends beyond the container (in screen pixels)
+    const overflowX = Math.max(0, visualWidth - containerRect.width);
+    const overflowY = Math.max(0, visualHeight - containerRect.height);
+
+    // Convert screen overflow to image-coordinate translations
+    // The translation happens in image space, so we divide by ZOOM_FACTOR
+    const maxX = overflowX / 2 / ZOOM_FACTOR;
+    const maxY = overflowY / 2 / ZOOM_FACTOR;
+
+    // Clamp translation to bounds
+    currentX = Math.min(maxX, Math.max(-maxX, currentX));
+    currentY = Math.min(maxY, Math.max(-maxY, currentY));
+  } else {
+    // Image not loaded yet, use conservative bounds
+    currentX = Math.min(100, Math.max(-100, currentX));
+    currentY = Math.min(100, Math.max(-100, currentY));
+  }
 
   // Apply transform: scale + translate
   isDragging.style.transform = `scale(${ZOOM_FACTOR}) translate(${currentX}px, ${currentY}px)`;
