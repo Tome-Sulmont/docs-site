@@ -5,8 +5,9 @@ draft: false
 Sample test of the custom B4 adapter paired with the Canon J16ax8B4 lens.
 
 > **Tips:**
-> In each viewer below you can **zoom** *`click`* and **pan** *`click + drag`*
-> The buttons under the viewer switches between apertures.
+> In each viewer below you can **zoom** *`click`* and **pan** *`click + drag`*.
+> The buttons under the viewer switch between apertures.
+> Images may take a bit of time to load at first.
 
 ## Image quality
 
