@@ -259,7 +259,7 @@ If not, the doubler delivers totally acceptable results.
 
 Complete datasheet: [.PDF↓](./B4-Adapter-Project/download/Canon-J16ax8B-datasheet.pdf)
 
-## Final Though
+## Final Thought
 
 Filming a chart is interesting for understanding a lens's strengths and weaknesses, but real-world shooting is what truly matters.
 
