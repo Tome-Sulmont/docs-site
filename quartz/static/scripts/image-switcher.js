@@ -75,6 +75,7 @@ document.addEventListener("click", (e) => {
     // Improve touch responsiveness and GPU compositing
     img.style.touchAction = 'none';
     img.style.willChange = 'transform';
+    img.style.borderRadius = '0';
     img.style.transform = `scale(${ZOOM_FACTOR}) translate3d(0px, 0px, 0)`;
   } else {
     // Zoom out: reset transform
@@ -83,6 +84,10 @@ document.addEventListener("click", (e) => {
     img.style.transform = "";
     img.style.touchAction = '';
     img.style.willChange = '';
+    // Delay border-radius restoration until after transition completes
+    setTimeout(() => {
+      img.style.borderRadius = '';
+    }, 260);
   }
 });
 
