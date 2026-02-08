@@ -1,4 +1,6 @@
-
+---
+draft: true
+---
 
 I created a guide recently on how to adapt b4 lenses. In it, I go in detail how I designed a custom adapter with corrected optics.
 
