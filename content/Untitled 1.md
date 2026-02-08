@@ -1,6 +1,3 @@
----
-draft: true
----
 
 
 I created a guide recently on how to adapt b4 lenses. In it, I go in detail how I designed a custom adapter with corrected optics.
@@ -16,28 +13,55 @@ I am trying to create the resources that I would have liked to see when I first 
 Tell me what you thinks :)
 
 ---
-### Testing a B4 Lens on a Mirrorless Camera (Sample Images)
+## Testing a B4 Lens on a Mirrorless Camera (Sample Images)
 
-### What a B4 Broadcast Lens Looks Like on a Mirrorless Camera
+## What a B4 Broadcast Lens Looks Like on a Mirrorless Camera
 
 I recently published a guide on how to adapt B4 broadcast lenses to mirrorless cameras, where I go into detail about designing a custom adapter with proper corrective optics.
 
-A few people asked if I could share **real sample images** captured with the adapter.
 
-Since there’s already excellent video content about B4 lenses out there (especially on the James and Camera YouTube channel), I decided to create an **article for the lens tests and sample images** instead.
 
+
+I recently shared my custom B4 broadcast lens adapter [here](https://www.reddit.com/r/videography/comments/1qxd3kj/comment/o4511nf/). I was asked if I could share **sample images** captured with it.
+
+Since there’s already excellent video content about B4 lenses (especially on the *James and Camera* YouTube channel), I decided to create an **article** instead.
+
+It includes **interactive viewers** that lets you compare different apertures and focal lengths directly.
 You can find my test of the Canon J16ax8B4 lens here:
-
-→ [Canon J16ax8B4 Review]()
-
-It includes some **interactive viewer** that lets you compare different apertures and focal lengths directly.
+→ [Canon J16ax8B4 Review](https://docs.tomesulmont.com/Canon-J16ax8B4-Review)
 
 I’m trying to build the kind of resource I wish had existed when I first got interested in B4 lenses.  
-I’d love to hear what you think :)
+I’d love to hear your thoughts :)
 
 ---
 
+I recently shared my custom B4 broadcast lens adapter [here](https://www.reddit.com/r/videography/comments/1qxd3kj/comment/o4511nf/) and several people asked to see **sample images** captured with it.
 
+To find out what this **B4 lens + custom adapter combo** can deliver on mirrorless camera, I conducted some test and created an article.
+
+You can find my test of the Canon J16ax8B4 lens here:
+→ [Canon J16ax8B4 Review](https://docs.tomesulmont.com/Canon-J16ax8B4-Review)
+
+I’m trying to build the kind of resource I wish had existed when I first got interested in B4 lenses.  
+I’d love to hear your feedback :)
+
+
+
+![[Test-chart-sample.jpg]]
+
+
+
+![[personal_setup_solid_connection_hd.jpg]]
+
+![[Test-chart-zoom.jpg]]
+
+
+
+
+
+---
+
+ (this was hard to code for me)
 
 Tell me what you thinks and want to see next :)
 

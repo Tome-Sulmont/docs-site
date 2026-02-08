@@ -83,7 +83,7 @@ Sample test of the custom B4 adapter paired with the Canon J16ax8B4 lens.
 <div class="zoom-container">
   <img
     class="mainImage zoomable"
-    src="/B4-Adapter-Project/attachments/comparison/J16ax8B4-008mm-f1.8-x2-APSC.png"
+    src="/B4-Adapter-Project/attachments/comparison/J16ax8B4-008mm-f1.8-x2-APSC.jpg"
     data-pixel-zoom="true"
     style="border-radius: inherit; "
   />
@@ -91,15 +91,15 @@ Sample test of the custom B4 adapter paired with the Canon J16ax8B4 lens.
 <div style="display: flex; gap: 0.5rem; margin-top: 0.5rem">
   <button
     class="selected"
-    onclick="changeImage('/B4-Adapter-Project/attachments/comparison/J16ax8B4-008mm-f1.8-x2-APSC.png', this)">f/1.8</button>
+    onclick="changeImage('/B4-Adapter-Project/attachments/comparison/J16ax8B4-008mm-f1.8-x2-APSC.jpg', this)">f/1.8</button>
   <button 
-	  onclick="changeImage('/B4-Adapter-Project/attachments/comparison/J16ax8B4-008mm-f2.8-x2-APSC.png', this)">f/2.8</button>
+	  onclick="changeImage('/B4-Adapter-Project/attachments/comparison/J16ax8B4-008mm-f2.8-x2-APSC.jpg', this)">f/2.8</button>
   <button 
-	  onclick="changeImage('/B4-Adapter-Project/attachments/comparison/J16ax8B4-008mm-f4.0-x2-APSC.png', this)">f/4</button>
+	  onclick="changeImage('/B4-Adapter-Project/attachments/comparison/J16ax8B4-008mm-f4.0-x2-APSC.jpg', this)">f/4</button>
   <button 
-	  onclick="changeImage('/B4-Adapter-Project/attachments/comparison/J16ax8B4-008mm-f5.6-x2-APSC.png', this)">f/5.6</button>
+	  onclick="changeImage('/B4-Adapter-Project/attachments/comparison/J16ax8B4-008mm-f5.6-x2-APSC.jpg', this)">f/5.6</button>
   <button 
-	  onclick="changeImage('/B4-Adapter-Project/attachments/comparison/J16ax8B4-008mm-f8.0-x2-APSC.png', this)">f/8</button>
+	  onclick="changeImage('/B4-Adapter-Project/attachments/comparison/J16ax8B4-008mm-f8.0-x2-APSC.jpg', this)">f/8</button>
 </div>
 </div>
 
@@ -109,7 +109,7 @@ Sample test of the custom B4 adapter paired with the Canon J16ax8B4 lens.
 <div class="zoom-container">
   <img
     class="mainImage zoomable"
-    src="/B4-Adapter-Project/attachments/comparison/J16ax8B4-015mm-f1.8-x2-APSC.png"
+    src="/B4-Adapter-Project/attachments/comparison/J16ax8B4-015mm-f1.8-x2-APSC.jpg"
     data-pixel-zoom="true"
     style="border-radius: inherit; "
   />
@@ -117,15 +117,15 @@ Sample test of the custom B4 adapter paired with the Canon J16ax8B4 lens.
 <div style="display: flex; gap: 0.5rem; margin-top: 0.5rem">
   <button
     class="selected"
-    onclick="changeImage('/B4-Adapter-Project/attachments/comparison/J16ax8B4-015mm-f1.8-x2-APSC.png', this)">f/1.8</button>
+    onclick="changeImage('/B4-Adapter-Project/attachments/comparison/J16ax8B4-015mm-f1.8-x2-APSC.jpg', this)">f/1.8</button>
   <button 
-	  onclick="changeImage('/B4-Adapter-Project/attachments/comparison/J16ax8B4-015mm-f2.8-x2-APSC.png', this)">f/2.8</button>
+	  onclick="changeImage('/B4-Adapter-Project/attachments/comparison/J16ax8B4-015mm-f2.8-x2-APSC.jpg', this)">f/2.8</button>
   <button 
-	  onclick="changeImage('/B4-Adapter-Project/attachments/comparison/J16ax8B4-015mm-f4.0-x2-APSC.png', this)">f/4</button>
+	  onclick="changeImage('/B4-Adapter-Project/attachments/comparison/J16ax8B4-015mm-f4.0-x2-APSC.jpg', this)">f/4</button>
   <button 
-	  onclick="changeImage('/B4-Adapter-Project/attachments/comparison/J16ax8B4-015mm-f5.6-x2-APSC.png', this)">f/5.6</button>
+	  onclick="changeImage('/B4-Adapter-Project/attachments/comparison/J16ax8B4-015mm-f5.6-x2-APSC.jpg', this)">f/5.6</button>
   <button 
-	  onclick="changeImage('/B4-Adapter-Project/attachments/comparison/J16ax8B4-015mm-f8.0-x2-APSC.png', this)">f/8</button>
+	  onclick="changeImage('/B4-Adapter-Project/attachments/comparison/J16ax8B4-015mm-f8.0-x2-APSC.jpg', this)">f/8</button>
 </div>
 </div>
 
@@ -134,7 +134,7 @@ Sample test of the custom B4 adapter paired with the Canon J16ax8B4 lens.
 <div class="zoom-container">
   <img
     class="mainImage zoomable"
-    src="/B4-Adapter-Project/attachments/comparison/J16ax8B4-030mm-f1.8-x2-APSC.png"
+    src="/B4-Adapter-Project/attachments/comparison/J16ax8B4-030mm-f1.8-x2-APSC.jpg"
     data-pixel-zoom="true"
     style="border-radius: inherit; "
   />
@@ -142,15 +142,15 @@ Sample test of the custom B4 adapter paired with the Canon J16ax8B4 lens.
 <div style="display: flex; gap: 0.5rem; margin-top: 0.5rem">
   <button
     class="selected"
-    onclick="changeImage('/B4-Adapter-Project/attachments/comparison/J16ax8B4-030mm-f1.8-x2-APSC.png', this)">f/1.8</button>
+    onclick="changeImage('/B4-Adapter-Project/attachments/comparison/J16ax8B4-030mm-f1.8-x2-APSC.jpg', this)">f/1.8</button>
   <button 
-	  onclick="changeImage('/B4-Adapter-Project/attachments/comparison/J16ax8B4-030mm-f2.8-x2-APSC.png', this)">f/2.8</button>
+	  onclick="changeImage('/B4-Adapter-Project/attachments/comparison/J16ax8B4-030mm-f2.8-x2-APSC.jpg', this)">f/2.8</button>
   <button 
-	  onclick="changeImage('/B4-Adapter-Project/attachments/comparison/J16ax8B4-030mm-f4.0-x2-APSC.png', this)">f/4</button>
+	  onclick="changeImage('/B4-Adapter-Project/attachments/comparison/J16ax8B4-030mm-f4.0-x2-APSC.jpg', this)">f/4</button>
   <button 
-	  onclick="changeImage('/B4-Adapter-Project/attachments/comparison/J16ax8B4-030mm-f5.6-x2-APSC.png', this)">f/5.6</button>
+	  onclick="changeImage('/B4-Adapter-Project/attachments/comparison/J16ax8B4-030mm-f5.6-x2-APSC.jpg', this)">f/5.6</button>
   <button 
-	  onclick="changeImage('/B4-Adapter-Project/attachments/comparison/J16ax8B4-030mm-f8.0-x2-APSC.png', this)">f/8</button>
+	  onclick="changeImage('/B4-Adapter-Project/attachments/comparison/J16ax8B4-030mm-f8.0-x2-APSC.jpg', this)">f/8</button>
 </div>
 </div>
 
@@ -159,7 +159,7 @@ Sample test of the custom B4 adapter paired with the Canon J16ax8B4 lens.
 <div class="zoom-container">
   <img
     class="mainImage zoomable"
-    src="/B4-Adapter-Project/attachments/comparison/J16ax8B4-060mm-f1.8-x2-APSC.png"
+    src="/B4-Adapter-Project/attachments/comparison/J16ax8B4-060mm-f1.8-x2-APSC.jpg"
     data-pixel-zoom="true"
     style="border-radius: inherit; "
   />
@@ -167,15 +167,15 @@ Sample test of the custom B4 adapter paired with the Canon J16ax8B4 lens.
 <div style="display: flex; gap: 0.5rem; margin-top: 0.5rem">
   <button
     class="selected"
-    onclick="changeImage('/B4-Adapter-Project/attachments/comparison/J16ax8B4-060mm-f1.8-x2-APSC.png', this)">f/1.8</button>
+    onclick="changeImage('/B4-Adapter-Project/attachments/comparison/J16ax8B4-060mm-f1.8-x2-APSC.jpg', this)">f/1.8</button>
   <button 
-	  onclick="changeImage('/B4-Adapter-Project/attachments/comparison/J16ax8B4-060mm-f2.8-x2-APSC.png', this)">f/2.8</button>
+	  onclick="changeImage('/B4-Adapter-Project/attachments/comparison/J16ax8B4-060mm-f2.8-x2-APSC.jpg', this)">f/2.8</button>
   <button 
-	  onclick="changeImage('/B4-Adapter-Project/attachments/comparison/J16ax8B4-060mm-f4.0-x2-APSC.png', this)">f/4</button>
+	  onclick="changeImage('/B4-Adapter-Project/attachments/comparison/J16ax8B4-060mm-f4.0-x2-APSC.jpg', this)">f/4</button>
   <button 
-	  onclick="changeImage('/B4-Adapter-Project/attachments/comparison/J16ax8B4-060mm-f5.6-x2-APSC.png', this)">f/5.6</button>
+	  onclick="changeImage('/B4-Adapter-Project/attachments/comparison/J16ax8B4-060mm-f5.6-x2-APSC.jpg', this)">f/5.6</button>
   <button 
-	  onclick="changeImage('/B4-Adapter-Project/attachments/comparison/J16ax8B4-060mm-f8.0-x2-APSC.png', this)">f/8</button>
+	  onclick="changeImage('/B4-Adapter-Project/attachments/comparison/J16ax8B4-060mm-f8.0-x2-APSC.jpg', this)">f/8</button>
 </div>
 </div>
 
@@ -184,7 +184,7 @@ Sample test of the custom B4 adapter paired with the Canon J16ax8B4 lens.
 <div class="zoom-container">
   <img
     class="mainImage zoomable"
-    src="/B4-Adapter-Project/attachments/comparison/J16ax8B4-128mm-f1.8-x2-APSC.png"
+    src="/B4-Adapter-Project/attachments/comparison/J16ax8B4-128mm-f1.8-x2-APSC.jpg"
     data-pixel-zoom="true"
     style="border-radius: inherit; "
   />
@@ -192,15 +192,15 @@ Sample test of the custom B4 adapter paired with the Canon J16ax8B4 lens.
 <div style="display: flex; gap: 0.5rem; margin-top: 0.5rem">
   <button
     class="selected"
-    onclick="changeImage('/B4-Adapter-Project/attachments/comparison/J16ax8B4-128mm-f1.8-x2-APSC.png', this)">f/1.8</button>
+    onclick="changeImage('/B4-Adapter-Project/attachments/comparison/J16ax8B4-128mm-f1.8-x2-APSC.jpg', this)">f/1.8</button>
   <button 
-	  onclick="changeImage('/B4-Adapter-Project/attachments/comparison/J16ax8B4-128mm-f2.8-x2-APSC.png', this)">f/2.8</button>
+	  onclick="changeImage('/B4-Adapter-Project/attachments/comparison/J16ax8B4-128mm-f2.8-x2-APSC.jpg', this)">f/2.8</button>
   <button 
-	  onclick="changeImage('/B4-Adapter-Project/attachments/comparison/J16ax8B4-128mm-f4.0-x2-APSC.png', this)">f/4</button>
+	  onclick="changeImage('/B4-Adapter-Project/attachments/comparison/J16ax8B4-128mm-f4.0-x2-APSC.jpg', this)">f/4</button>
   <button 
-	  onclick="changeImage('/B4-Adapter-Project/attachments/comparison/J16ax8B4-128mm-f5.6-x2-APSC.png', this)">f/5.6</button>
+	  onclick="changeImage('/B4-Adapter-Project/attachments/comparison/J16ax8B4-128mm-f5.6-x2-APSC.jpg', this)">f/5.6</button>
   <button 
-	  onclick="changeImage('/B4-Adapter-Project/attachments/comparison/J16ax8B4-128mm-f8.0-x2-APSC.png', this)">f/8</button>
+	  onclick="changeImage('/B4-Adapter-Project/attachments/comparison/J16ax8B4-128mm-f8.0-x2-APSC.jpg', this)">f/8</button>
 </div>
 </div>
 
@@ -216,7 +216,7 @@ Test shot with and without the x2 extender engaged. The `clear` image was croppe
 <div class="zoom-container">
   <img
     class="mainImage zoomable"
-    src="/B4-Adapter-Project/attachments/comparison/J16ax8B4-060mm-f1.8-x1-S16.png"
+    src="/B4-Adapter-Project/attachments/comparison/J16ax8B4-060mm-f1.8-x1-S16.jpg"
     data-pixel-zoom="true"
     style="border-radius: inherit; "
   />
@@ -224,16 +224,14 @@ Test shot with and without the x2 extender engaged. The `clear` image was croppe
 <div style="display: flex; gap: 0.5rem; margin-top: 0.5rem">
   <button
     class="selected"
-    onclick="changeImage('/B4-Adapter-Project/attachments/comparison/J16ax8B4-060mm-f1.8-x1-S16.png', this)">Clear</button>
+    onclick="changeImage('/B4-Adapter-Project/attachments/comparison/J16ax8B4-060mm-f1.8-x1-S16.jpg', this)">Clear</button>
   <button 
-	  onclick="changeImage('/B4-Adapter-Project/attachments/comparison/J16ax8B4-060mm-f2.8-x2-APSC.png', this)">2x</button>
+	  onclick="changeImage('/B4-Adapter-Project/attachments/comparison/J16ax8B4-060mm-f2.8-x2-APSC.jpg', this)">2x</button>
 </div>
 </div>
 
 ### Observations
-We can see that the doubler softens the edges, emphasizes chromatic aberration, adds some vignetting, and introduces haze to the overall image.
-The haze become more pronounced the tighter we get.
-
+We can see that the doubler emphasizes chromatic aberration, adds some vignetting and softens the extreme edges.
 ### Conclusion
 If your camera offers a Super 16 mode or allows you to crop in the sensor, it's best not to use the doubler (better image quality and +2 stops of light).
 If not, the doubler delivers totally acceptable results.
