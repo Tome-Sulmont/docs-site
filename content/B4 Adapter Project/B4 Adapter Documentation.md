@@ -175,6 +175,10 @@ For the power source, you can use an NP-F battery plate that have a 12V output, 
 The tolerances of the FDM 3D-printing process do not allow for "perfect" concentricity.
 This can result in the lens not zooming perfectly to the centre of the frame. In practice, this issue is barely noticeable and not disturbing in most cases. Just be aware this exists.
 
+## Sample footage
+
+If you want to see the adapter in action, go take a look at my [[Canon J16ax8B4 Review]].
+
 ## Thanks
 
 Thanks for reading this article, I hope you found some useful information.
