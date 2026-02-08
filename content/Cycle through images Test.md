@@ -58,7 +58,6 @@ Camera : Fujifilm X-M5
 }
 .zoomable.zoomed:active {
   cursor: grabbing; /* While dragging */
-  transition: none; /* Instant while dragging */
 }
 </style>
 

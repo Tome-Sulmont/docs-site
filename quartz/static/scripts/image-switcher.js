@@ -109,6 +109,9 @@ function pointerDown(e) {
     // ignore
   }
 
+  // Disable transition during drag for instant movement
+  img.style.transition = 'none';
+
   // Store the grab position in viewport coordinates
   grabX = e.clientX;
   grabY = e.clientY;
@@ -180,6 +183,10 @@ function pointerUp(e) {
     if (zoomTarget && zoomTarget.releasePointerCapture) zoomTarget.releasePointerCapture(e.pointerId);
   } catch (err) {
     // ignore
+  }
+  // Re-enable transition after drag
+  if (zoomTarget) {
+    zoomTarget.style.transition = 'transform 0.25s ease';
   }
   isDragging = false;
   zoomTarget = null;
