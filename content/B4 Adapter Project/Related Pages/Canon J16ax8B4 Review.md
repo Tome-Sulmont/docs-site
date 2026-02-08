@@ -205,7 +205,7 @@ Sample test of the custom B4 adapter paired with the Canon J16ax8B4 lens.
 
 Test shot with and without the x2 extender engaged. The `clear` image was cropped in in post to match the `x2` framing.
 
-### Without the Doubler
+### Without the doubler
 <iframe class= "ytplayer" src="https://www.youtube-nocookie.com/embed/_jpLMxW0fTE?vq=hd1080&rel=0&cc_load_policy=1&iv_load_policy=3" frameborder="0" allowfullscreen></iframe>
 
 ### 60mm 
@@ -235,15 +235,15 @@ The haze become more pronounced the tighter we get.
 If your camera offers a Super 16 mode or allows you to crop in the sensor, it's best not to use the doubler (better image quality and +2 stops of light).
 If not, the doubler delivers totally acceptable results.
 
-## Zoom showcase
+## Zoom Showcase
 
-### Handheld Crash zoom - 2x extender
+### Handheld crash zoom - 2x extender
 <iframe class= "ytplayer" src="https://www.youtube-nocookie.com/embed/ZfF2xkMjWc0?vq=hd1080&rel=0&cc_load_policy=1&iv_load_policy=3" frameborder="0" allowfullscreen></iframe>
 
-### Slowest Motorized Zoom - 2x extender
+### Slowest motorized zoom - 2x extender
 <iframe class= "ytplayer" src="https://www.youtube-nocookie.com/embed/sgcNR0yuiPw?vq=hd1080&rel=0&cc_load_policy=1&iv_load_policy=3" frameborder="0" allowfullscreen></iframe>
 
-### Fastest Motorized Zoom - 2x extender
+### Fastest motorized zoom - 2x extender
 <iframe class= "ytplayer" src="https://www.youtube-nocookie.com/embed/SfUvj4eUg0s?vq=hd1080&rel=0&cc_load_policy=1&iv_load_policy=3" frameborder="0" allowfullscreen></iframe>
 
 ## Lens Characteristics
@@ -258,14 +258,14 @@ If not, the doubler delivers totally acceptable results.
 
 Complete datasheet: [.PDF↓](./B4-Adapter-Project/download/Canon-J16ax8B-datasheet.pdf)
 
-## Final though
+## Final Though
 
 Filming a chart is interesting for understanding a lens's strengths and weaknesses, but real-world shooting is what truly matters.
 
 Personally, I use this lens with the doubler engaged, and let me tell you, I love shooting with it and I’m very happy with the images it can create. 
 Yes, this isn't a *perfect* setup and it doesn’t deliver the most *sharp* and *flawless* images, but it remains an excellent creative tool :)
 
-## To go further
+## To go Further
 
 [James and Camera](https://www.youtube.com/@jamesandcamera) creates excellent content on b4 lenses (lots of lens reviews and adapting recommendations).
 
