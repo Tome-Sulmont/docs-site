@@ -46,6 +46,13 @@ let zoomTarget = null;    // The <img> being zoomed
 let dragThreshold = 3;    // Minimal movement to consider a drag
 let dragDetected = false; // Flag to prevent click from toggling zoom after drag
 const ZOOM_FACTOR = 2.5;    // Scale factor when zoomed
+// Performance helpers
+let rafScheduled = false;
+let pendingX = 0;
+let pendingY = 0;
+let cachedMaxX = 100;
+let cachedMaxY = 100;
+let activePointerId = null;
 
 // ----- 3. CLICK TO ZOOM -----
 // Toggle zoom on image when clicked (but ignore if just dragged)
@@ -65,21 +72,28 @@ document.addEventListener("click", (e) => {
     // Zoom in: reset pan to center
     currentX = 0;
     currentY = 0;
-    img.style.transform = `scale(${ZOOM_FACTOR}) translate(0px, 0px)`;
+    // Improve touch responsiveness and GPU compositing
+    img.style.touchAction = 'none';
+    img.style.willChange = 'transform';
+    img.style.transform = `scale(${ZOOM_FACTOR}) translate3d(0px, 0px, 0)`;
   } else {
     // Zoom out: reset transform
     currentX = 0;
     currentY = 0;
     img.style.transform = "";
+    img.style.touchAction = '';
+    img.style.willChange = '';
   }
 });
 
 // ----- 4. DRAG START -----
-// Initialize dragging when user presses mouse or touches the image
-document.addEventListener("mousedown", startDrag);
-document.addEventListener("touchstart", startDrag, { passive: false });
+// Use Pointer Events for unified, low-latency input
+document.addEventListener("pointerdown", pointerDown);
+document.addEventListener("pointermove", pointerMove);
+document.addEventListener("pointerup", pointerUp);
+document.addEventListener("pointercancel", pointerUp);
 
-function startDrag(e) {
+function pointerDown(e) {
   const img = e.target.closest(".zoomable.zoomed");
   if (!img) return; // Only allow drag if image is zoomed
 
@@ -87,28 +101,45 @@ function startDrag(e) {
 
   zoomTarget = img;
   isDragging = img;
+  activePointerId = e.pointerId;
 
-  const point = e.touches ? e.touches[0] : e;
+  try {
+    img.setPointerCapture(e.pointerId);
+  } catch (err) {
+    // ignore
+  }
+
   // Store the grab position in viewport coordinates
-  grabX = point.clientX;
-  grabY = point.clientY;
+  grabX = e.clientX;
+  grabY = e.clientY;
 
   dragDetected = false;
+  // Cache geometry and bounds to avoid layout reads during move
+  try {
+    const container = img.parentElement;
+    const displayW = img.clientWidth || container.clientWidth;
+    const displayH = img.clientHeight || container.clientHeight;
+    const visualW = displayW * ZOOM_FACTOR;
+    const visualH = displayH * ZOOM_FACTOR;
+    const overflowX = Math.max(0, visualW - container.clientWidth);
+    const overflowY = Math.max(0, visualH - container.clientHeight);
+    cachedMaxX = (overflowX / 2) / ZOOM_FACTOR;
+    cachedMaxY = (overflowY / 2) / ZOOM_FACTOR;
+  } catch (err) {
+    cachedMaxX = 100;
+    cachedMaxY = 100;
+  }
 }
 
 // ----- 5. DRAG MOVE -----
 // Update image position while dragging
-document.addEventListener("mousemove", drag);
-document.addEventListener("touchmove", drag, { passive: false });
-
-function drag(e) {
-  if (!isDragging) return;
+function pointerMove(e) {
+  if (!isDragging || e.pointerId !== activePointerId) return;
 
   e.preventDefault();
 
-  const point = e.touches ? e.touches[0] : e;
-  const deltaX = point.clientX - grabX;
-  const deltaY = point.clientY - grabY;
+  const deltaX = e.clientX - grabX;
+  const deltaY = e.clientY - grabY;
 
   // Detect if drag exceeds threshold
   if (!dragDetected && (Math.abs(deltaX) > dragThreshold || Math.abs(deltaY) > dragThreshold)) {
@@ -120,53 +151,37 @@ function drag(e) {
   currentY += deltaY / ZOOM_FACTOR;
 
   // Update grab position for next frame
-  grabX = point.clientX;
-  grabY = point.clientY;
+  grabX = e.clientX;
+  grabY = e.clientY;
 
-  // ----- 5a. CONSTRAIN PAN TO CONTAINER -----
-  const img = isDragging;
-  const container = img.parentElement;
-  const containerRect = container.getBoundingClientRect();
+  // Clamp translation using cached bounds (avoids layout reads per-move)
+  currentX = Math.min(cachedMaxX, Math.max(-cachedMaxX, currentX));
+  currentY = Math.min(cachedMaxY, Math.max(-cachedMaxY, currentY));
 
-  // Get image dimensions (with fallback if not loaded yet)
-  let imgWidth = img.naturalWidth;
-  let imgHeight = img.naturalHeight;
-  
-
-  if (imgWidth > 0 && imgHeight > 0) {
-    // Image is loaded, calculate proper constraints
-    // Visual size after zoom
-    const visualWidth = imgWidth * ZOOM_FACTOR;
-    const visualHeight = imgHeight * ZOOM_FACTOR;
-
-    // How much the scaled image extends beyond the container (in screen pixels)
-    const overflowX = container.clientWidth*2 
-    const overflowY = container.clientHeight*2 
-
-    // Convert screen overflow to image-coordinate translations
-    // The translation happens in image space, so we divide by ZOOM_FACTOR
-    const maxX = overflowX / 2 / ZOOM_FACTOR;
-    const maxY = overflowY / 2 / ZOOM_FACTOR;
-
-    // Clamp translation to bounds
-    currentX = Math.min(maxX, Math.max(-maxX, currentX));
-    currentY = Math.min(maxY, Math.max(-maxY, currentY));
-  } else {
-    // Image not loaded yet, use conservative bounds
-    currentX = Math.min(100, Math.max(-100, currentX));
-    currentY = Math.min(100, Math.max(-100, currentY));
+  // Schedule visual update via requestAnimationFrame
+  pendingX = currentX;
+  pendingY = currentY;
+  if (!rafScheduled) {
+    rafScheduled = true;
+    requestAnimationFrame(() => {
+      if (isDragging) {
+        isDragging.style.transform = `scale(${ZOOM_FACTOR}) translate3d(${pendingX}px, ${pendingY}px, 0)`;
+      }
+      rafScheduled = false;
+    });
   }
-
-  // Apply transform: scale + translate
-  isDragging.style.transform = `scale(${ZOOM_FACTOR}) translate(${currentX}px, ${currentY}px)`;
 }
 
 // ----- 6. DRAG END -----
 // Reset dragging state
-document.addEventListener("mouseup", endDrag);
-document.addEventListener("touchend", endDrag);
-
-function endDrag() {
+function pointerUp(e) {
+  if (e.pointerId !== activePointerId) return;
+  try {
+    if (zoomTarget && zoomTarget.releasePointerCapture) zoomTarget.releasePointerCapture(e.pointerId);
+  } catch (err) {
+    // ignore
+  }
   isDragging = false;
   zoomTarget = null;
+  activePointerId = null;
 }
