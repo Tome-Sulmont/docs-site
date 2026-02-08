@@ -177,7 +177,7 @@ This can result in the lens not zooming perfectly to the centre of the frame. In
 
 ## Sample footage
 
-If you want to see the adapter in action, go take a look at my [[Canon J16ax8B4 Review]].
+If you want to see the adapter in action, check out my [[Canon J16ax8B4 Review]].
 
 ## Thanks
 
