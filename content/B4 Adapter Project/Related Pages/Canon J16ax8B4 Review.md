@@ -6,12 +6,34 @@ description: Review of the Canon J16ax8B4 lens paired with the custom B4 adapter
 
 Sample test of the custom B4 adapter paired with the Canon J16ax8B4 lens.
 
+## Lens Characteristics
+
+| Canon J16ax8B4        |                             |
+| --------------------- | --------------------------- |
+| Focal length          | 8-128mm → 30-480mm (FF eq.) |
+| Aperture              | f1.8                        |
+| Weight                | 1.33 Kg                     |
+| Doubler               | Yes                         |
+| Min focusing distance | 0.6m (50mm w/ Macro)        |
+
+Complete datasheet: [.PDF↓](./B4-Adapter-Project/download/Canon-J16ax8B-datasheet.pdf)
+
+## Test setup
+
+![[personal_setup_solid_connection_hd.jpg]]
+
+### Gear used 
+- Fujifilm X-M5 camera (APSC sensor)
+- Custom B4 adapter
+- Canon J16ax8B4 IRS-C SX12 lens
+- ISO12233 Resolution Chart (A3 size)
+
+## Image quality
+
 > **Tips:**
 > In each viewer below you can **zoom** *`click`* and **pan** *`click + drag`*.
 > The buttons under the viewer switch between apertures.
 > Images may take a bit of time to load at first.
-
-## Image quality
 
 <div style="display: flex; flex-direction: column; align-items: flex-start; gap: 0rem;">
 </div>
@@ -211,7 +233,7 @@ Test shot with and without the x2 extender engaged. The `clear` image was croppe
 ### Without the doubler
 <iframe class= "ytplayer" src="https://www.youtube-nocookie.com/embed/_jpLMxW0fTE?vq=hd1080&rel=0&cc_load_policy=1&iv_load_policy=3" frameborder="0" allowfullscreen></iframe>
 
-### 60mm 
+### 60mm
 <div class="image-switcher">
 <div class="zoom-container">
   <img
@@ -247,18 +269,6 @@ If not, the doubler delivers totally acceptable results.
 ### Fastest motorized zoom - 2x extender
 <iframe class= "ytplayer" src="https://www.youtube-nocookie.com/embed/SfUvj4eUg0s?vq=hd1080&rel=0&cc_load_policy=1&iv_load_policy=3" frameborder="0" allowfullscreen></iframe>
 
-## Lens Characteristics
-
-| Canon J16ax8B4        |                             |
-| --------------------- | --------------------------- |
-| Focal length          | 8-128mm → 30-480mm (FF eq.) |
-| Aperture              | f1.8                        |
-| Weight                | 1.33 Kg                     |
-| Doubler               | Yes                         |
-| Min focusing distance | 0.6m (50mm w/ Macro)        |
-
-Complete datasheet: [.PDF↓](./B4-Adapter-Project/download/Canon-J16ax8B-datasheet.pdf)
-
 ## Final Thought
 
 Filming a chart is interesting for understanding a lens's strengths and weaknesses, but real-world shooting is what truly matters.
@@ -274,8 +284,3 @@ You can find the playlist of all his lens tests [here](https://www.youtube.com/w
 The Canon J16ax8 is reviewed [there](https://youtu.be/BIVx--2QveU?si=eyFSLl6m5FfgDqMK).
 Note that he uses the same Blackmagic corrective optic for his tests.
 
-## Gear used 
-- Fujifilm X-M5 camera (APSC sensor)
-- Custom B4 adapter
-- Canon J16ax8B4 IRS-C SX12 lens
-- ISO12233 Resolution Chart (A3 size)
