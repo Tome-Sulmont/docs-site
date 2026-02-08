@@ -1,5 +1,7 @@
 ---
 draft: false
+alias: Canon-J16ax8B4-Review
+description: Review of the Canon J16ax8B4 lens paired with the custom B4 adapter (sample images).
 ---
 
 Sample test of the custom B4 adapter paired with the Canon J16ax8B4 lens.
