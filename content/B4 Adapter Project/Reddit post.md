@@ -2,7 +2,15 @@
 draft: true
 ---
 
-# Custom B4 lens adapter for mirrorless cameras (with corrective optics)
+r/Filmmakers 
+r/videography
+r/VintageLenses
+r/cinematography
+r/VIDEOENGINEERING
+
+# Reddit 1
+
+### Custom B4 lens adapter for mirrorless cameras (with corrective optics)
 
 Have you ever wondered how to adapt 2/3" B4 broadcast lenses to mirrorless camera?
 
@@ -25,7 +33,7 @@ I'd be more than happy to answer questions and hear your feedback :)
 
 --- 
 
-# Custom B4 lens adapter (with proper corrective optics)
+### Custom B4 lens adapter (with proper corrective optics)
 
 Ever wondered how to properly adapt 2/3" B4 broadcast lenses to mirrorless cameras?
 
@@ -43,25 +51,27 @@ I will be more than happy to answer questions and hear your feedback :)
 
 ---
 
-r/Filmmakers (more serious than r/videography)
-r/VintageLenses
-r/cinematography
-r/VIDEOENGINEERING
+# Reddit 2
 
-To Do :
-- [x] Photo of the real adapter
-- [x] Photo of the rig
-- [x] Assembly picks
-- [x] increase the mount tol on the 3d
-- [ ] Ironing (degrease tol ??)
-- [x] Why adapting B4 broadcast glass in the first place ?
-- [ ] Practical result
-- [ ] personal setups ??
-- [ ] r/Filmmakers, r/videography, r/DIY
-- [ ] SD / HD lenses topic
-- [ ] Google indexation CEO
-- [ ] ENG keyword
-- [ ] Fuji HAF’s b4 cine lenses
+### Testing a B4 Lens on a Mirrorless Camera (Sample Images)
+### What a B4 Broadcast Lens Looks Like on a Mirrorless Camera
+
+I recently shared my custom B4 broadcast lens adapter [here](https://www.reddit.com/r/videography/comments/1qxd3kj/comment/o4511nf/), and several people asked to see **sample images** captured with it. 
+
+I conducted some tests and created an article that includes interactive viewers allowing you to directly compare different apertures and focal lengths.
+
+You can find my test of the Canon J16ax8B4 lens here:
+
+→ [Canon J16ax8B4 Review](https://docs.tomesulmont.com/Canon-J16ax8B4-Review)
+
+
+I’m trying to build the kind of resource I wish had existed when I first got interested in B4 lenses.  
+
+I’d love to hear your feedback :)
+
+
+**PS:** Yes, some tests were done in my bathroom. I needed the length of the corridor plus the bathroom.
+
 
 ---
 
@@ -73,12 +83,8 @@ I found mind on the second hand market; you can also search it by its reference 
 
 This isn’t meant to replace commercial solutions, but it can makes working with B4 glass on mirrorless bodies far more accessible.
 
+Tell me what you thinks and want to see next :)
 
+Small and compact eng sd lens
 
-![[personal_setup_solid_connection.jpg|500]]
-
-![[Final_adapter_front.jpg|300]]
-
-![[Adapter_on_B4_lens_zoom.jpg|300]]
-![[CAD_Assembly_with_balloon.png|300]]
-![[CAD_Assembly_section_view.png|300]]
+I recently published a guide on how to adapt B4 broadcast lenses to mirrorless cameras, where I go into detail about designing a custom adapter with proper corrective optics.

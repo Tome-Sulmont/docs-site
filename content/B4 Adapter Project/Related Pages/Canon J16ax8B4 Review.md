@@ -4,7 +4,7 @@ alias: Canon-J16ax8B4-Review
 description: Review of the Canon J16ax8B4 lens paired with the custom B4 adapter (sample images).
 ---
 
-Sample test of the custom B4 adapter paired with the Canon J16ax8B4 lens.
+Review of the Canon J16ax8B4 lens paired with the custom B4 adapter.
 
 ## Lens Characteristics
 
@@ -15,8 +15,9 @@ Sample test of the custom B4 adapter paired with the Canon J16ax8B4 lens.
 | Weight                | 1.33 Kg                     |
 | Doubler               | Yes                         |
 | Min focusing distance | 0.6m (50mm w/ Macro)        |
+| Front filter diameter | Ø 82mm                      |
 
-Complete datasheet: [.PDF↓](./B4-Adapter-Project/download/Canon-J16ax8B-datasheet.pdf)
+Complete datasheet: [.PDF ↓](./B4-Adapter-Project/download/Canon-J16ax8B-datasheet.pdf)
 
 ## Test setup
 
@@ -227,7 +228,6 @@ Complete datasheet: [.PDF↓](./B4-Adapter-Project/download/Canon-J16ax8B-datash
 </div>
 
 ## Clear / Doubler Comparison
-
 Test shot with and without the x2 extender engaged. The `clear` image was cropped in in post to match the `x2` framing.
 
 ### Without the doubler
@@ -254,6 +254,7 @@ Test shot with and without the x2 extender engaged. The `clear` image was croppe
 
 ### Observations
 We can see that the doubler emphasizes chromatic aberration, adds some vignetting and softens the extreme edges.
+
 ### Conclusion
 If your camera offers a Super 16 mode or allows you to crop in the sensor, it's best not to use the doubler (better image quality and +2 stops of light).
 If not, the doubler delivers totally acceptable results.
@@ -270,14 +271,12 @@ If not, the doubler delivers totally acceptable results.
 <iframe class= "ytplayer" src="https://www.youtube-nocookie.com/embed/SfUvj4eUg0s?vq=hd1080&rel=0&cc_load_policy=1&iv_load_policy=3" frameborder="0" allowfullscreen></iframe>
 
 ## Final Thought
-
 Filming a chart is interesting for understanding a lens's strengths and weaknesses, but real-world shooting is what truly matters.
 
 Personally, I use this lens with the doubler engaged, and let me tell you, I love shooting with it and I’m very happy with the images it can create. 
 Yes, this isn't a *perfect* setup and it doesn’t deliver the most *sharp* and *flawless* images, but it remains an excellent creative tool :)
 
 ## To go Further
-
 [James and Camera](https://www.youtube.com/@jamesandcamera) creates excellent content on b4 lenses (lots of lens reviews and adapting recommendations).
 
 You can find the playlist of all his lens tests [here](https://www.youtube.com/watch?v=RdcxZvInbyg&list=PLGH1WUKulDW552TrDAl3LlB8NJh2eTcm7).
