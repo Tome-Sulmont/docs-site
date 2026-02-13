@@ -3,6 +3,7 @@ draft: false
 alias: B4-Adapter-Documentation
 description: Comprehensive guide on how to adapt 2/3" B4 ENG broadcast lenses to any mirrorless camera using corrective optics.
 ---
+
 Here is a comprehensive guide on how to adapt 2/3" B4 broadcast lenses to any mirrorless camera using corrective optics. 
 
 This adapter can be built for virtually any mounts available on the market (Sony, Nikon, Canon, Fujifilm, Lumix…) and can be made for relatively cheap compared to the off-the-shelf options available on the market.
@@ -98,11 +99,11 @@ Find all my [[Adapter Print Recommendations]] here.
 
 ![[Remove_tree_support.jpg|Support material removal|200]]
 
-3. Install the `x5` M2.5 heat inserts with a soldering iron. Be meticulous, the insert must be perfectly straight.
+3. Install the `x5` *M2.5 heat inserts* with a soldering iron. Be meticulous, the insert must be perfectly straight.
 
 ![[M2.5_heat_insert.jpg|M2.5 heat insert installation with a soldering iron|200]]
 
-4. Repeat the operation with the `x2` 1/4-20 heat inserts.
+4. Repeat the operation with the `x2` *1/4-20 heat inserts*.
 
 ![[1_4-20_heat_insert.jpg|1/4-20 heat insert installation with a soldering iron|200]]
 
@@ -110,13 +111,13 @@ Find all my [[Adapter Print Recommendations]] here.
 
 ![[Disassemble_Leica-M_adapter.jpg|Leica M adapter disassembly|400]]
 
-6. Attach the aluminium mount to the printed part using `x4` M1.6 screws and washers. Align the red dot upward.
+6. Attach the aluminium mount to the printed part using `x4` *M1.6 screws and washers*. Align the red dot upward.
 
 ![[red_dot_up_cercle.jpg|Mirrorless mount orientation|200]] ![[Attach_the_aluminium_mount.jpg|Screwing the mirrorless mount in place|200]]
 
 7. Remove the plastic protrusion on the side of the URSA Mini B4 mount.
 
-8. Attach the URSA Mini B4 mount to the printed part using the included `x5` M2.5 x 12 mm screws. Align the notch upward (not necessarily the red dot).
+8. Attach the URSA Mini B4 mount to the printed part using the included `x5` *M2.5 x 12 mm screws*. Align the notch upward (not necessarily the red dot).
 
 ![[noch_up_cercle.jpg|URSA B4 mount orientation|200]] ![[Attach_the_URSA_Mini_B4.jpg|Screwing the URSA B4 mount in place|200]]
 
@@ -126,7 +127,7 @@ Find all my [[Adapter Print Recommendations]] here.
 
 ## Lens / Adapter Support
 
-The B4 mount is designed fore use on heavy cameras, therefore, the connection between the lens and the adapter is extremely strong. 
+The B4 mount is designed for use on heavy cameras, therefore, the connection between the lens and the adapter is extremely strong. 
 However, mirrorless mounts are not designed to handle this amount weight. 
 
 ### You have 3 options
