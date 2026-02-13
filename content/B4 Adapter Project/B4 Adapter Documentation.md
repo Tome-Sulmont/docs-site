@@ -1,7 +1,7 @@
 ---
 draft: false
 alias: B4-Adapter-Documentation
-description: Comprehensive guide on how to adapt 2/3" B4 broadcast lenses to any mirrorless camera using corrective optics.
+description: Comprehensive guide on how to adapt 2/3" B4 ENG broadcast lenses to any mirrorless camera using corrective optics.
 ---
 Here is a comprehensive guide on how to adapt 2/3" B4 broadcast lenses to any mirrorless camera using corrective optics. 
 
@@ -15,9 +15,9 @@ After quite a bit of research, I found that the [Blackmagic B4 mount](https://ww
 
 The idea is to combine the Blackmagic B4 mount and a lens mount (salvaged from a lens adapter) with a 3D-printed part.
 
-| ![[Blackmagic_URSA_mini_b4-mount.jpg\|280]] | ![[Lens_mount_from_lens_adapter.jpg\|110]] |
-| :-----------------------------------------: | :----------------------------------------: |
-|            *URSA Mini B4 mount*             |               *Lens adapter*               |
+| ![[Blackmagic_URSA_mini_b4-mount.jpg\|Blackmagic URSA Mini B4 mount\|280]] | ![[Lens_mount_from_lens_adapter.jpg\|Lens mount from lens adapter\|110]] |
+| :------------------------------------------------------------------------: | :----------------------------------------------------------------------: |
+|                            *URSA Mini B4 mount*                            |                              *Lens adapter*                              |
 
 See [[B4 Lens Nomenclature]] to learn about the naming system and how to choose the right B4 lens.
 And see [[Why Adapting B4 Broadcast Lenses]] for a list of pro and cons of broadcast lenses.
@@ -32,15 +32,15 @@ See [[Additional Information]] for more details.
 
 ## The Design
 
-| ![[Final_adapter_front.jpg\|300]] | ![[Adapter_on_B4_lens_zoom.jpg\|300]] |
-| :-------------------------------: | :-----------------------------------: |
-|        *The final adapter*        |   *Here it is mounted on a B4 lens*   |
+| ![[Final_adapter_front.jpg\|Custom adapter\|300]] | ![[Adapter_on_B4_lens_zoom.jpg\|Custom adapter mounted on a B4 lens\|300]] |
+| :-----------------------------------------------: | :------------------------------------------------------------------------: |
+|                *The final adapter*                |                     *Here it is mounted on a B4 lens*                      |
 
 ### CAD
 
-| ![[CAD_Assembly_with_balloon.png\|340]] | ![[CAD_Assembly_section_view.png\|235]] |
-| :-------------------------------------: | :-------------------------------------: |
-|            *Isometric view*             |           *Side section view*           |
+| ![[CAD_Assembly_with_balloon.png\|CAD isometric view\|340]] | ![[CAD_Assembly_section_view.png\|CAD section view\|235]] |
+| :---------------------------------------------------------: | :-------------------------------------------------------: |
+|                      *Isometric view*                       |                    *Side section view*                    |
 
 ➀ : URSA Mini B4 Mount [.STEP ↓](./B4-Adapter-Project/download/URSA-Mini-B4-Mount.STEP)
 ➁ : 3D-printed part [.STEP ↓](./B4-Adapter-Project/download/3d-printed-part.STEP)
@@ -92,37 +92,37 @@ Find all my [[Adapter Print Recommendations]] here.
 
 1. Print the part.
 
-![[3D-Printed_part.jpg|200]]
+![[3D-Printed_part.jpg|3D-printed part|200]]
 
 2. Remove the tree support. The surface is not functional but ensure no support material remains.
 
-![[Remove_tree_support.jpg|200]]
+![[Remove_tree_support.jpg|Support material removal|200]]
 
 3. Install the `x5` M2.5 heat inserts with a soldering iron. Be meticulous, the insert must be perfectly straight.
 
-![[M2.5_heat_insert.jpg|200]]
+![[M2.5_heat_insert.jpg|M2.5 heat insert installation with a soldering iron|200]]
 
 4. Repeat the operation with the `x2` 1/4-20 heat inserts.
 
-![[1_4-20_heat_insert.jpg|200]]
+![[1_4-20_heat_insert.jpg|1/4-20 heat insert installation with a soldering iron|200]]
 
 5. Disassemble the Leica M adapter and keep only the back coated aluminium mount.
 
-![[Disassemble_Leica-M_adapter.jpg|400]]
+![[Disassemble_Leica-M_adapter.jpg|Leica M adapter disassembly|400]]
 
 6. Attach the aluminium mount to the printed part using `x4` M1.6 screws and washers. Align the red dot upward.
 
-![[red_dot_up_cercle.jpg|200]] ![[Attach_the_aluminium_mount.jpg|200]]
+![[red_dot_up_cercle.jpg|Mirrorless mount orientation|200]] ![[Attach_the_aluminium_mount.jpg|Screwing the mirrorless mount in place|200]]
 
 7. Remove the plastic protrusion on the side of the URSA Mini B4 mount.
 
 8. Attach the URSA Mini B4 mount to the printed part using the included `x5` M2.5 x 12 mm screws. Align the notch upward (not necessarily the red dot).
 
-![[noch_up_cercle.jpg|200]] ![[Attach_the_URSA_Mini_B4.jpg|200]]
+![[noch_up_cercle.jpg|URSA B4 mount orientation|200]] ![[Attach_the_URSA_Mini_B4.jpg|Screwing the URSA B4 mount in place|200]]
 
 9. The adapter is now complete.
 
-![[Final_adapter_back.jpg|200]]
+![[Final_adapter_back.jpg|Completed adapter|200]]
 
 ## Lens / Adapter Support
 
@@ -145,9 +145,9 @@ Note that there is no need for an additional "lens support" as long as the adapt
 I use both Option 1 & 2 depending on the shoot. 
 My current personal setup looks something like this :
 
-| ![[personal_setup_solid_connection.jpg\|378]] | ![[solid_connection_only.jpg\|294]] |
-| :-------------------------------------------: | :---------------------------------: |
-|         *Option 2: solid connection*          |  *Plate, clamp and riser systeme*   |
+| ![[personal_setup_solid_connection.jpg\|B4 ENG broadcast lens adapted on a mirrorless camera\|378]] | ![[solid_connection_only.jpg\|Custom adapter to camera body linkage\|294]] |
+| :-------------------------------------------------------------------------------------------------: | :------------------------------------------------------------------------: |
+|                                    *Option 2: solid connection*                                     |                      *Plate, clamp and riser systeme*                      |
 
 ## Powering the rocker
 
@@ -158,7 +158,7 @@ The cable attached to the lens use a male 12-pin HIROSE connector. You therefore
 
 ### Female 12-pin HIROSE pinout
 
-![[HIROSE_12pin_connector_only.jpg|180]]
+![[HIROSE_12pin_connector_only.jpg|12 pin hirose connector pinout|180]]
 `3` = GND
 `6` = +12 V DC
 

@@ -13,9 +13,9 @@ I then used the EF flange distance (whitch is <span style="color:rgb(255, 0, 0)"
 After taking measurements, I found that the URSA removable mount has a flange of <span style="color:rgb(255, 0, 0)">32.3 mm</span>.
 
 
-| ![[Flange_distance_on_Blackmagic_EF.png\|280]] | ![[Flange_distance_on_Blackmagic_B4.png\|380]] |
-| :--------------------------------------------: | :--------------------------------------------: |
-|                *URSA EF mount*                 |                *URSA B4 mount*                 |
+| ![[Flange_distance_on_Blackmagic_EF.png\|URSA EF mount flange distance diagram\|280]] | ![[Flange_distance_on_Blackmagic_B4.png\|URSA B4 mount flange distance diagram\|380]] |
+| :-----------------------------------------------------------------------------------: | :-----------------------------------------------------------------------------------: |
+|                                    *URSA EF mount*                                    |                                    *URSA B4 mount*                                    |
 
 
 In the final design, I barely have to adjust the back focus on the lens, which suggests that this value is a good approximation.

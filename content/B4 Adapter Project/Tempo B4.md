@@ -17,6 +17,9 @@ To Do :
 - [ ] ENG keyword
 - [ ] Fuji HAF’s b4 cine lenses
 
+## Draft
+- [Reddit B4 Servo Pinout](https://www.reddit.com/r/videography/comments/7g5tua/howto_using_servocontrolled_fujinon_b4_lenses/) 
+
 ## Print advice section 
 
 As you know, every printer is different
@@ -28,3 +31,4 @@ Test you can do :
 The bore hole that 
 The circular alu
 the size of the hole heat inserts
+

@@ -21,7 +21,7 @@ Complete datasheet: [.PDF ↓](./B4-Adapter-Project/download/Canon-J16ax8B-datas
 
 ## Test setup
 
-![[personal_setup_solid_connection_hd.jpg]]
+![[personal_setup_solid_connection_hd.jpg|B4 ENG broadcast lens adapted on a mirrorless camera]]
 
 ### Gear used 
 - Fujifilm X-M5 camera (APSC sensor)

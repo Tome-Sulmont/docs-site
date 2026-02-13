@@ -78,13 +78,8 @@ I’d love to hear your feedback :)
 Disclaimer: this is still an option that cost some money and some manufacturing knowledge
 
 The few component needed can be found for cheap on AliExpress.
-The main issue is sourcing the URSA B4 mount. 
-I found mind on the second hand market; you can also search it by its reference "CINEURSAMUPROTB4HD" you may found cheaper resellers.
+The main issue is sourcing the URSA B4 mount. I found mind on the second hand market; you can also search it by its reference "CINEURSAMUPROTB4HD" you may found cheaper resellers.
 
 This isn’t meant to replace commercial solutions, but it can makes working with B4 glass on mirrorless bodies far more accessible.
 
 Tell me what you thinks and want to see next :)
-
-Small and compact eng sd lens
-
-I recently published a guide on how to adapt B4 broadcast lenses to mirrorless cameras, where I go into detail about designing a custom adapter with proper corrective optics.

@@ -1,10 +1,11 @@
 ---
 draft: false
+alias: B4-Lens-Nomenclature
 ---
 
-| Canon                              | Fujinon                           |
-| ---------------------------------- | --------------------------------- |
-| ![[Canon_lens_model_num.jpg\|338]] | ![[Fuji_lens_model_num.jpg\|300]] |
+| Canon                                                                 | Fujinon                                                                |
+| --------------------------------------------------------------------- | ---------------------------------------------------------------------- |
+| ![[Canon_lens_model_num.jpg\|Canon broadcast lens nomenclature\|338]] | ![[Fuji_lens_model_num.jpg\|Fujinon broadcast lens nomenclature\|300]] |
 
 Source: [Broadcast Lens Nomenclature - Abel Cine](https://www.abelcine.com/articles/blog-and-knowledge/tools-charts-and-downloads/broadcast-lens-nomenclature-key)
 

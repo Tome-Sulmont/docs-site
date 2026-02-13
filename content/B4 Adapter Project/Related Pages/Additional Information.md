@@ -7,7 +7,7 @@ draft: false
 The Doubler adds a `2x` crop.
 The Blackmagic B4 mount adds a `1.1x` crop.
 
-![[2_3inch_APSC_coverage.png|300]]
+![[2_3inch_APSC_coverage.png|Sensor coverage diagram|300]]
 
 With the lens doubler engaged & the corrective element, only APSC is covered (w/ a bit of vignette).
 The crop factor is around `3.8x` (So an 8mm B4 lens is equivalent to 30mm FF lens).
