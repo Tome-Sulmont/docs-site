@@ -15,6 +15,7 @@ draft: false
 - [Multicam B4 to MFT](https://www.multicam.systems/product/multicam-systems-b4-2-3-to-mft-adapter/) (corrected x1.1)
 - [MTF B4 to PL](https://mtfservices.com/products/b4-2-3-to-arri-pl-adaptor) (corrected)
 - [Zhongyi B4 to MFT](https://www.stkb.jp/shopdetail/000000001426/) (corrected x2)
+- [Cinelux B4 to RED DSMC2](https://shop.cinelux.co.uk/products/b4-to-red-dsmc1-2-mount-adapter?_pos=1&_sid=8adc13e9a&_ss=r) (corrected x1.1)
 
 ## James and Camera adapter
 

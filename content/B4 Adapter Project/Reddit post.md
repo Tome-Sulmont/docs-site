@@ -83,3 +83,20 @@ The main issue is sourcing the URSA B4 mount. I found mind on the second hand ma
 This isn’t meant to replace commercial solutions, but it can makes working with B4 glass on mirrorless bodies far more accessible.
 
 Tell me what you thinks and want to see next :)
+
+---
+
+Hello documentary enthusiast, if you are interested in re-using your old B4 ENG/broadcast lenses, I designed a custom adapter for mirrorless mounts.
+
+It uses a corrective optic from the URSA Mini B4 mount to deal with the lack of a 3-CCD prism.
+
+I documented the entire making process if you're interested:
+https://docs.tomesulmont.com/B4-Adapter-Documentation
+
+
+Hello, I seen discussions about adapting B4 lenses here.
+
+I designed a custom adapter for mirrorless mount. It uses a corrective optic from the URSA Mini B4 mount to deal with the lack of a 3-CCD prism.
+
+I documented the entire making process if you're interested:
+https://docs.tomesulmont.com/B4-Adapter-Documentation

@@ -10,7 +10,7 @@ This adapter can be built for virtually any mounts available on the market (Sony
 
 ## Context
 
-B4 lenses are designed for use with a 3-CCD sensors. In order to adapt them correctly to modern single-sensors, an optical element is required that corrects [[Spherical Aberration]].
+B4 lenses are designed for use with 3-CCD sensors. In order to adapt them correctly to modern single-sensors, an optical element is required to correct [[Spherical Aberration]].
 
 After quite a bit of research, I found that the [Blackmagic B4 mount](https://www.blackmagicdesign.com/products/blackmagicursaminipro/techspecs/W-URSA-22) for the URSA Mini can be found at a relatively low cost compared to the other [[Adapter options]] available to us.
 
@@ -99,11 +99,11 @@ Find all my [[Adapter Print Recommendations]] here.
 
 ![[Remove_tree_support.jpg|Support material removal|200]]
 
-3. Install the `x5` *M2.5 heat inserts* with a soldering iron. Be meticulous, the insert must be perfectly straight.
+3. Install the `x5` **M2.5 heat inserts** with a soldering iron. Be meticulous, the insert must be perfectly straight.
 
 ![[M2.5_heat_insert.jpg|M2.5 heat insert installation with a soldering iron|200]]
 
-4. Repeat the operation with the `x2` *1/4-20 heat inserts*.
+4. Repeat the operation with the `x2` **1/4-20 heat inserts**.
 
 ![[1_4-20_heat_insert.jpg|1/4-20 heat insert installation with a soldering iron|200]]
 
@@ -111,13 +111,13 @@ Find all my [[Adapter Print Recommendations]] here.
 
 ![[Disassemble_Leica-M_adapter.jpg|Leica M adapter disassembly|400]]
 
-6. Attach the aluminium mount to the printed part using `x4` *M1.6 screws and washers*. Align the red dot upward.
+6. Attach the aluminium mount to the printed part using `x4` **M1.6 screws and washers**. Align the red dot upward.
 
 ![[red_dot_up_cercle.jpg|Mirrorless mount orientation|200]] ![[Attach_the_aluminium_mount.jpg|Screwing the mirrorless mount in place|200]]
 
 7. Remove the plastic protrusion on the side of the URSA Mini B4 mount.
 
-8. Attach the URSA Mini B4 mount to the printed part using the included `x5` *M2.5 x 12 mm screws*. Align the notch upward (not necessarily the red dot).
+8. Attach the URSA Mini B4 mount to the printed part using the included `x5` **M2.5 x 12 mm screws**. Align the notch upward (not necessarily the red dot).
 
 ![[noch_up_cercle.jpg|URSA B4 mount orientation|200]] ![[Attach_the_URSA_Mini_B4.jpg|Screwing the URSA B4 mount in place|200]]
 
