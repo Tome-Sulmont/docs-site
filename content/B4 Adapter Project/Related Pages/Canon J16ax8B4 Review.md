@@ -4,7 +4,7 @@ alias: Canon-J16ax8B4-Review
 description: Review of the Canon J16ax8B4 lens paired with the custom B4 adapter (sample images).
 ---
 
-Review of the Canon J16ax8B4 lens paired with the custom B4 adapter.
+Review of the Canon J16ax8B4 lens paired with the [Custom B4 adapter](/B4-Adapter-Documentation).
 
 ## Lens Characteristics
 

@@ -128,7 +128,7 @@ Find all my [[Adapter Print Recommendations]] here.
 ## Lens / Adapter Support
 
 The B4 mount is designed for use on heavy cameras, therefore, the connection between the lens and the adapter is extremely strong. 
-However, mirrorless mounts are not designed to handle this amount weight. 
+However, mirrorless mounts are not designed to handle this amount of weight. 
 
 ### You have 3 options
 
@@ -137,7 +137,7 @@ If you are using a mirrorless, the mount is strong enough to hang the camera fro
 
 2. **Solid connection**
 Create a solid connection between the adapter and the camera body.
-You can attach an Arca Swiss plate under the custom adapter. By using another Arca plate, 2 clamps and a 3D-printed riser, you can securely connect the lens to the camera body.
+You can attach an Arca Swiss plate under the custom adapter. By using another Arca plate, 2 clamps and a 3D-printed riser, you can securely connect the adapter to the camera body.
 
 3. **Lens support**
 I've seen people online using lens supports and rods, this is another option.

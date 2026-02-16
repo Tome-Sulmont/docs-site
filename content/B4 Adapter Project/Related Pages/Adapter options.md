@@ -6,7 +6,7 @@ draft: false
 
 - [Blackmagic URSA Mini B4 Mount](https://www.blackmagicdesign.com/products/blackmagicursaminipro/techspecs/W-URSA-22) (corrected x1.1)
 
-## Other options that I came across (MFT, Sony E, PL)
+## Other options that I came across (MFT, Sony E, PL, RED)
 
 - [KIPON B4 to PL S35](https://kipon.com/product/b4pl-s35/) (corrected x2.9)
 - [Fotodiox Pro B4 to MFT](https://fotodioxpro.com/products/b4-magic) (corrected x1.4)
