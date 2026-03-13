@@ -67,7 +67,7 @@ Find all my [[Adapter Print Recommendations]] here.
 | Category             | Item                    | Ref                    | Brand      | Qty | Link                                                                                                |
 | -------------------- | ----------------------- | ---------------------- | ---------- | --- | --------------------------------------------------------------------------------------------------- |
 | Mount (choose yours) | Leica M to **Fuji X**   | LM-FX                  | PHOLSY     | 1   | [Link](https://www.amazon.fr/PHOLSY-Adaptateur-objectifs-Leica-Appareil/dp/B0C9HVQCYR)              |
-|                      | Leica M to **Sony E**   | LM-SE                  | PHOLSY     | 1   | [Link](https://www.amazon.fr/-/en/PHOLSY-Adapter-Leica-Zeiss-Camera/dp/B0BWY55G17)                  |
+|                      | Leica M to **Sony E**   | LM-SE                  | PHOLSY     | 1   | [Link](https://www.amazon.fr/-/en/PHOLSY-Manual-Lens-Adapter-Compatible/dp/B0CYT475DR/)             |
 |                      | Leica M to **L mount**  | LM-L                   | PHOLSY     | 1   | [Link](https://www.amazon.fr/-/en/PHOLSY-Adapter-Leica-Voigtlander-Compatible/dp/B0C9J2FF3T)        |
 |                      | Leica M to **Nikon Z**  | LM-N/Z                 | PHOLSY     | 1   | [Link](https://www.amazon.fr/-/en/PHOLSY-Adapter-Compatible-Voigtlander-Cameras/dp/B0C16Y1WQF?th=1) |
 |                      | Leica M to **MFT**      | LM-MFT                 | PHOLSY     | 1   | [Link](https://www.amazon.fr/-/en/Adapter-Leica-Cameras-Compatible-Panasonic/dp/B0C9HM25KZ)         |
@@ -107,7 +107,7 @@ Find all my [[Adapter Print Recommendations]] here.
 
 ![[1_4-20_heat_insert.jpg|1/4-20 heat insert installation with a soldering iron|200]]
 
-5. Disassemble the Leica M adapter and keep only the back coated aluminium mount.
+5. Disassemble the Leica M adapter and keep only the black coated aluminium mount.
 
 ![[Disassemble_Leica-M_adapter.jpg|Leica M adapter disassembly|400]]
 
@@ -174,7 +174,7 @@ For the power source, you can use an NP-F battery plate that have a 12V output, 
 ### Concentricity
 
 The tolerances of the FDM 3D-printing process do not allow for "perfect" concentricity.
-This can result in the lens not zooming perfectly to the centre of the frame. In practice, this issue is barely noticeable and not disturbing in most cases. Just be aware this exists.
+This can result in the lens not zooming perfectly to the center of the frame. In practice, this issue is barely noticeable and not disturbing in most cases. Just be aware this exists.
 
 ## Sample footages
 

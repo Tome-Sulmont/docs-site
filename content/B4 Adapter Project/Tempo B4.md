@@ -10,17 +10,15 @@ To Do :
 - [ ] Ironing (degrease tol ??)
 - [x] Why adapting B4 broadcast glass in the first place ?
 - [ ] Practical result
-- [ ] personal setups ??
-- [ ] r/Filmmakers, r/videography, r/DIY
+- [x] personal setups
+- [x] r/Filmmakers, r/videography, r/DIY
 - [ ] SD / HD lenses topic
-- [ ] Google indexation CEO *Automatic*
+- [ ] Google indexation CEO -> *Automatic*
 - [ ] ENG keyword
 - [ ] Fuji HAF’s b4 cine lenses
 
-## Draft
-- [Reddit B4 Servo Pinout](https://www.reddit.com/r/videography/comments/7g5tua/howto_using_servocontrolled_fujinon_b4_lenses/) 
 
-## Print advice section 
+## Print advice section ?
 
 As you know, every printer is different
 

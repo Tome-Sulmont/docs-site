@@ -8,7 +8,7 @@ r/VintageLenses
 r/cinematography
 r/VIDEOENGINEERING
 
-# Reddit 1
+# Reddit Adapter
 
 ### Custom B4 lens adapter for mirrorless cameras (with corrective optics)
 
@@ -51,7 +51,7 @@ I will be more than happy to answer questions and hear your feedback :)
 
 ---
 
-# Reddit 2
+# Reddit Canon J16ax8B4
 
 ### Testing a B4 Lens on a Mirrorless Camera (Sample Images)
 ### What a B4 Broadcast Lens Looks Like on a Mirrorless Camera
@@ -100,3 +100,8 @@ I designed a custom adapter for mirrorless mount. It uses a corrective optic fro
 
 I documented the entire making process if you're interested:
 https://docs.tomesulmont.com/B4-Adapter-Documentation
+
+
+
+It uses a corrective optic from the URRA Mini B4 mount to deal with the lack of 3-CCD prisme.
+In combinaison with a metal mount and a 3d-printed part, it's create a relatively inexpensive option.
