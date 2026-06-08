@@ -13,7 +13,7 @@ To Do :
 - [x] personal setups
 - [x] r/Filmmakers, r/videography, r/DIY
 - [ ] SD / HD lenses topic
-- [ ] Google indexation CEO -> *Automatic*
+- [x] Google indexation CEO -> *Automatic*
 - [ ] ENG keyword
 - [ ] Fuji HAF’s b4 cine lenses
 

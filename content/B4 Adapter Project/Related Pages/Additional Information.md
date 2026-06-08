@@ -4,8 +4,8 @@ draft: false
 
 ## Coverage Explanations
 
-The Doubler adds a `2x` crop.
-The Blackmagic B4 mount adds a `1.1x` crop.
+The Doubler adds a `2x` magnification.
+The Blackmagic B4 mount adds a `1.1x` magnification.
 
 ![[2_3inch_APSC_coverage.png|Sensor coverage diagram|300]]
 
