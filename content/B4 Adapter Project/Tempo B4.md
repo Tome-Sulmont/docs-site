@@ -1,6 +1,15 @@
 ---
 draft: true
 ---
+Local build :
+```
+npx quartz build --serve
+```
+
+GitHub deployment :
+```
+npx quartz sync
+```
 
 To Do :
 - [x] Photo of the real adapter
@@ -16,6 +25,7 @@ To Do :
 - [x] Google indexation CEO -> *Automatic*
 - [ ] ENG keyword
 - [ ] Fuji HAF’s b4 cine lenses
+- [ ] Comparison w/ and without the optical element
 
 
 ## Print advice section ?

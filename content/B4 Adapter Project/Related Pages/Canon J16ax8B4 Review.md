@@ -274,7 +274,7 @@ If not, the doubler delivers totally acceptable results.
 Filming a chart is interesting for understanding a lens's strengths and weaknesses, but real-world shooting is what truly matters.
 
 Personally, I use this lens with the doubler engaged, and let me tell you, I love shooting with it and I’m very happy with the images it can create. 
-Yes, this isn't a *perfect* setup and it doesn’t deliver the most *sharp* and *flawless* images, but it remains an excellent creative tool :)
+Yes, this isn't a perfect setup and it doesn’t deliver the most sharp and flawless images, but it remains an excellent creative tool :)
 
 ## To go Further
 [James and Camera](https://www.youtube.com/@jamesandcamera) creates excellent content on b4 lenses (lots of lens reviews and adapting recommendations).

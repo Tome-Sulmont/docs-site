@@ -14,4 +14,4 @@ draft: false
 - Design to covers small sensor 
 - Still results in a relatively large and heavy rig overall
 - For tight shot, a tripod is almost mandatory
-- Handheld can be cumbersome (a shoulder rig works best)
+- Handheld can be cumbersome (the lens is designed for shoulder rigs)

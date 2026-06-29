@@ -67,11 +67,11 @@ Find all my [[Adapter Print Recommendations]] here.
 | Category             | Item                    | Ref                    | Brand      | Qty | Link                                                                                                |
 | -------------------- | ----------------------- | ---------------------- | ---------- | --- | --------------------------------------------------------------------------------------------------- |
 | Mount (choose yours) | Leica M to **Fuji X**   | LM-FX                  | PHOLSY     | 1   | [Link](https://www.amazon.fr/PHOLSY-Adaptateur-objectifs-Leica-Appareil/dp/B0C9HVQCYR)              |
-|                      | Leica M to **Sony E**   | LM-SE                  | PHOLSY     | 1   | [Link](https://www.amazon.fr/-/en/PHOLSY-Manual-Lens-Adapter-Compatible/dp/B0CYT475DR/)             |
+|                      | Leica M to **Sony E**   | LM-E                   | PHOLSY     | 1   | [Link](https://www.amazon.fr/-/en/PHOLSY-Manual-Lens-Adapter-Compatible/dp/B0CYT475DR/)             |
 |                      | Leica M to **L mount**  | LM-L                   | PHOLSY     | 1   | [Link](https://www.amazon.fr/-/en/PHOLSY-Adapter-Leica-Voigtlander-Compatible/dp/B0C9J2FF3T)        |
 |                      | Leica M to **Nikon Z**  | LM-N/Z                 | PHOLSY     | 1   | [Link](https://www.amazon.fr/-/en/PHOLSY-Adapter-Compatible-Voigtlander-Cameras/dp/B0C16Y1WQF?th=1) |
 |                      | Leica M to **MFT**      | LM-MFT                 | PHOLSY     | 1   | [Link](https://www.amazon.fr/-/en/Adapter-Leica-Cameras-Compatible-Panasonic/dp/B0C9HM25KZ)         |
-|                      | Leica M to **EOS-M**    | LM-EOS-M               | PHOLSY     | 1   | [Link](https://www.amazon.fr/-/en/Leica-Adapter-Compatible-Voigtlander-VM-Mount/dp/B0CJLNGM32)      |
+|                      | Leica M to **EOS-M**    | LM-EOSM                | PHOLSY     | 1   | [Link](https://www.amazon.fr/-/en/Leica-Adapter-Compatible-Voigtlander-VM-Mount/dp/B0CJLNGM32)      |
 |                      | Leica M to **Canon RF** | LM-RF                  | PHOLSY     | 1   | [Link](https://www.amazon.fr/-/en/PHOLSY-Adapter-Compatible-Leica-Voigtlander/dp/B0C16YNX2Z)        |
 |                      |                         |                        |            |     |                                                                                                     |
 | Corrected B4 adapter | URSA Mini B4 Mount      | CINEURSAMUPROTB4HD     | Blackmagic | 1   | [Link](https://www.blackmagicdesign.com/products/blackmagicursaminipro/techspecs/W-URSA-22)         |
@@ -83,7 +83,7 @@ Find all my [[Adapter Print Recommendations]] here.
 
 > **Disclaimers:** 
 > Please note that the current design only works with the Leica M adapters listed above. 
-> I have only tested the Fuji X version, but the design of all listed adapter is identical. So it should work with the other as well.
+> I have only tested the Fuji X and the Sony E version, but the design of all listed adapter is identical. So it should work with the other as well.
 
 >**Tips to find the Blackmagic B4 adapter:** 
 >Buy it from the second-hand market.
