@@ -24,10 +24,10 @@ This page provides a 3D-printable replacement for the Zoom F6 NP-F battery holde
 
 | Component          | File                                                                               |
 | ------------------ | ---------------------------------------------------------------------------------- |
-| Main part          | [.STL ↓](./REPAIRS/Zoom-F6-NP-F-Repair/download/Zoom-F6-NP-F-Replacement-Main.STL) |
-| Tabs               | [.STL ↓](./REPAIRS/Zoom-F6-NP-F-Repair/download/Zoom-F6-NP-F-Replacement-Tab.STL)  |
-| CAD model          | [.STEP ↓](./REPAIRS/Zoom-F6-NP-F-Repair/download/Zoom-F6-NP-F-Replacement.STEP)    |
-| Printer parameters | [.3MF ↓](./REPAIRS/Zoom-F6-NP-F-Repair/download/Zoom-F6-NP-F-Replacement.3mf)      |
+| Main part          | [.STL ↓](./REPAIRS/Zoom-F6/download/Zoom-F6-NP-F-Replacement-Main.STL) |
+| Tabs               | [.STL ↓](./REPAIRS/Zoom-F6/download/Zoom-F6-NP-F-Replacement-Tab.STL)  |
+| CAD model          | [.STEP ↓](./REPAIRS/Zoom-F6/download/Zoom-F6-NP-F-Replacement.STEP)    |
+| Printer parameters | [.3MF ↓](./REPAIRS/Zoom-F6/download/Zoom-F6-NP-F-Replacement.3mf)      |
 
 ## How to Build
 
