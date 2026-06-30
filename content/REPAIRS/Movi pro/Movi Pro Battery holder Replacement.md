@@ -1,10 +1,10 @@
 ---
-draft: false
+draft: true
 alias: Zoom-F6-NP-F-Replacement
-description: 3D-printable replacement housing for a broken Zoom F6 NP-F battery holder.
+description: 3D-printable replacement housing for a broken Movi Pro battery holder.
 ---
 ## Intro
-This page provides a 3D-printable replacement for the Zoom F6 NP-F battery holder. The design replaces the original injection-molded part while reusing the original electronic and mechanical components.
+This page provides a 3D-printable rvseplacement for the Movi Pro battery holder. The design replaces the original injection-molded part while reusing the original electronic.
 
 | ![[3d-printed-np-f-replacement-final.jpg\|450]] |
 | :---------------------------------------------: |
@@ -24,19 +24,18 @@ This page provides a 3D-printable replacement for the Zoom F6 NP-F battery holde
 
 | Component          | File                                                                               |
 | ------------------ | ---------------------------------------------------------------------------------- |
-| Main part          | [.STL ↓](./REPAIRS/Zoom-F6-NP-F-Repair/download/Zoom-F6-NP-F-Replacement-Main.STL) |
-| Tabs               | [.STL ↓](./REPAIRS/Zoom-F6-NP-F-Repair/download/Zoom-F6-NP-F-Replacement-Tab.STL)  |
+| The part           | [.STL ↓](./REPAIRS/Zoom-F6-NP-F-Repair/download/Zoom-F6-NP-F-Replacement-Main.STL) |
 | CAD model          | [.STEP ↓](./REPAIRS/Zoom-F6-NP-F-Repair/download/Zoom-F6-NP-F-Replacement.STEP)    |
 | Printer parameters | [.3MF ↓](./REPAIRS/Zoom-F6-NP-F-Repair/download/Zoom-F6-NP-F-Replacement.3mf)      |
 
 ## How to Build
 
-1. Disassemble the Zoom F6 until you can remove the NP-F battery holder.
-2. Keep all the original parts except the damaged injection-molded part.  
-3. Print the replacement parts (the two tabs are printed separately).  
-4. Glue the tabs to the main part using cyanoacrylate (super glue).  
-5. Glue one of the original magnets into the replacement part.  
-6. Install the door, PCB, and copper foil onto the replacement part.  
-7. Reassemble the Zoom F6.
+1. Disassemble the Movi Pro battery holder.
+2. Keep all the PCB, covers and screws.
+3. Print the replacement part.
+4. Heat slightly the tabs of the part to bend them in position.
+5. Install the PCB  
+6. Install the PCB  
+7. Screw the new battery holder to the Movi Pro
 
 
