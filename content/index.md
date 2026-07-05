@@ -1,5 +1,6 @@
 ---
 title: Welcome
+description: Documentation of my camera, optics and maker projects — from adapting B4 broadcast lenses, to gear repairs and DIY builds.
 draft: false
 ---
 
