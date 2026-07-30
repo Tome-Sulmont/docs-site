@@ -1,6 +1,5 @@
 ---
 draft: false
-alias: flange
 ---
 
 ## Definition

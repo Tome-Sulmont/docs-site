@@ -1,6 +1,5 @@
 ---
 draft: true
-alias: Canon-J11ex4.5B
 description:
 ---
 

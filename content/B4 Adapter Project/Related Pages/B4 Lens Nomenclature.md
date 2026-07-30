@@ -1,6 +1,5 @@
 ---
 draft: false
-alias: b4-nomenclature
 ---
 
 | Canon                                                                 | Fujinon                                                                |

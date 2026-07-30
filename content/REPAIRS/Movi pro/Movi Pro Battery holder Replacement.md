@@ -1,6 +1,5 @@
 ---
 draft: true
-alias: movi-pro-battery
 description: 3D-printable replacement housing for a broken Movi Pro battery holder.
 ---
 ## Intro

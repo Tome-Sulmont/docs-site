@@ -1,5 +1,12 @@
 {
   "cleanUrls": true,
+  "redirects": [
+    {
+      "source": "/B4-Adapter-Documentation",
+      "destination": "/B4-Adapter-Project/B4-Adapter-Documentation",
+      "permanent": true
+    }
+  ],
   "rewrites": [
     { "source": "/robots.txt", "destination": "/static/robots.txt" }
   ]

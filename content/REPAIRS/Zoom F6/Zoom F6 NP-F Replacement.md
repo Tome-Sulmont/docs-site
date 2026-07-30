@@ -1,6 +1,5 @@
 ---
 draft: false
-alias: zoom-f6-npf
 description: 3D-printable replacement housing for a broken Zoom F6 NP-F battery holder.
 ---
 ## Intro

@@ -1,6 +1,5 @@
 ---
 draft: false
-alias: b4-adapter
 description: Comprehensive guide on how to adapt 2/3" B4 ENG broadcast lenses to any mirrorless camera using corrective optics.
 ---
 

@@ -1,6 +1,5 @@
 ---
 draft: false
-alias: pinout
 ---
 
 | B4 lens pinout                                                                                                                                                                                                                               | Female 12 pin HIROSE                                                      |
