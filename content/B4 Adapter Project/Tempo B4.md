@@ -13,6 +13,7 @@ npx quartz sync
 
 To Do :
 - [x] Photo of the real adapter
+- [ ] Voir B4-Adapter-Claude-Expertise pour améliorer
 - [x] Photo of the rig
 - [x] Assembly picks
 - [x] increase the mount tol on the 3d

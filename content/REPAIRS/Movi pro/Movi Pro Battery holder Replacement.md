@@ -1,10 +1,10 @@
 ---
 draft: true
-alias: Zoom-F6-NP-F-Replacement
+alias: movi-pro-battery
 description: 3D-printable replacement housing for a broken Movi Pro battery holder.
 ---
 ## Intro
-This page provides a 3D-printable rvseplacement for the Movi Pro battery holder. The design replaces the original injection-molded part while reusing the original electronic.
+This page provides a 3D-printable replacement for the Movi Pro battery holder. The design replaces the original injection-molded part while reusing the original electronic.
 
 | ![[3d-printed-np-f-replacement-final.jpg\|450]] |
 | :---------------------------------------------: |

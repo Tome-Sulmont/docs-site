@@ -1,6 +1,6 @@
 ---
 draft: false
-alias: B4-Lens-Nomenclature
+alias: b4-nomenclature
 ---
 
 | Canon                                                                 | Fujinon                                                                |

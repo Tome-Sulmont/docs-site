@@ -1,6 +1,6 @@
 ---
 draft: false
-alias: Flange-Distance
+alias: flange
 ---
 
 ## Definition

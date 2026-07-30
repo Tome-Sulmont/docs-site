@@ -1,6 +1,6 @@
 ---
 draft: false
-alias: Spherical-Aberration
+alias: spherical
 ---
 
 Lenses made for 3-CCD sensor focus different colours at different depths because the optical path of red, green and blue through the prisms is different. B4 lenses are designed to compensate for this effect.
