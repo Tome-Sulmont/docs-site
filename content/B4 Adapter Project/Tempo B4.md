@@ -41,4 +41,6 @@ The bore hole that
 The circular alu
 the size of the hole heat inserts
 
+---
+I'm a filmmaker. When I can't find the gear I need — or when it breaks — I build it, and I document how here. Everything on this site is something I made and actually use.
 
